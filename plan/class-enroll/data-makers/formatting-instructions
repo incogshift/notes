@@ -1,0 +1,19 @@
+give me available course classes in markdown code block the format:
+| Class ID | Days and Times | Room | Instructor | Status | Rating |
+
+Here Class ID is something like: Lecture - Class 1295 -Section 1
+
+use html in between .md, <br> for line breaks and <hr> to show line breaks, to split lines. do that with days and times. use additional html tags where necessary to keep structure (not design). use md tables. also for Days and Times,	Room	Instructor, make sure they are aligned accordingly when multiple is given
+
+i dont want this type of info:
+- AEEL 1102 - Fundamentals of Electricity II
+  04/05/2025 - 26/06/2025
+
+For the open seats: format -> 'open/closed (?-?)' where ? is some number according to data and open or closed is used depending on the given or data
+
+rating info wont be given in the data as it will be filled in later
+
+leave its cells empty
+
+use the following data
+

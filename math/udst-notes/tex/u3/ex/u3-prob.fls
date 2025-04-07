@@ -1,0 +1,8 @@
+PWD /home/incog267/clones/notes/math/udst-notes/tex/u3/ex
+INPUT /nix/store/cnmrpb3g7vdb33h2m1310yql53wxxwd0-texlive-combined-full-2024.20241027/share/texmf-var/web2c/texmf.cnf
+INPUT /nix/store/cnmrpb3g7vdb33h2m1310yql53wxxwd0-texlive-combined-full-2024.20241027/share/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT u3-prob.tex
+OUTPUT u3-prob.log
+INPUT /nix/store/npj2d69a0dxgpxhz5v0kkh9qzz3ryhqm-texlive-combined-full-2024.20241027-texmfdist/fonts/map/fontname/texfonts.map
+INPUT /nix/store/npj2d69a0dxgpxhz5v0kkh9qzz3ryhqm-texlive-combined-full-2024.20241027-texmfdist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /nix/store/npj2d69a0dxgpxhz5v0kkh9qzz3ryhqm-texlive-combined-full-2024.20241027-texmfdist/fonts/tfm/jknappen/ec/tcrm1000.tfm

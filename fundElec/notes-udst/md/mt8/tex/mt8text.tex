@@ -1,0 +1,179 @@
+\documentclass{book}
+
+\usepackage{inctech}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\subsubsection{PROBLEMS}\label{problems}
+
+\paragraph{SECTION 9.2 Superposition
+Theorem}\label{section-9.2-superposition-theorem}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Using the superposition theorem, determine the current through the
+    \(12 \Omega\) resistor of Fig. 9.119.
+  \end{enumerate}
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \setcounter{enumii}{1}
+  \item
+    Convert both voltage sources to current sources and re-calculate the
+    current to the \(12 \Omega\) resistor.
+  \item
+    How do the results of parts (a) and (b) compare?
+  \end{enumerate}
+\end{enumerate}
+
+\begin{circuitikz}
+  \draw
+  (0,0) node[ground]{}
+  to[battery1, l=$16V$, invert] (0,3)
+  to[R, l=$4\Omega$] (3,3)
+  to[R] (6,3)
+  to[R, l=$12\Omega$] (6,0)
+  -- (0,0);
+
+  \draw
+  (0,0)
+  -- (3,0)
+  to[battery1, l=$10V$] (3,3);
+
+  \draw
+  (3,3)
+  to[R, l=$2\Omega$] (6,3);
+\end{circuitikz}
+
+FIG. 9.119 Problem 1.
+
+\textbf{Ans}
+
+\begin{circuitikz}
+  \draw
+  (0,0) node[ground]{}
+  to[battery1, l=$16V$, invert] (0,3)
+  to[R, l=$4\Omega$,name=R1] (3,3)
+  to[R, i=$I_3$] (6,3)
+  to[R, l=$12\Omega$,name=R3] (6,0)
+  -- (0,0);
+
+  \draw
+  (0,0)
+  -- (3,0)
+  -- (3,3);
+
+  \draw
+  (3,3)
+  to[R, l=$2\Omega$,name=R2] (6,3);
+
+    % Add labels for the resistors
+    \node[anchor=north] at (R1.south) {$R_1$};
+    \node[anchor=north] at (R2.south) {$R_2$};
+    \node[anchor=east] at (R3.south) {$R_3$};
+\end{circuitikz}
+
+%Beginning of stupidity \(\downarrow\)
+%
+%\begin{align*}
+%  R_T &= R_1 + \frac{1}{\cfrac{1}{R_2}+\cfrac{1}{R_3}}  \\
+%  R_T &= 4~\Omega + \frac{1}{\cfrac{1}{2~\Omega}+\cfrac{1}{12~\Omega}}  \\
+%  R_T &= \frac{40}{7}~\Omega \\
+%  I_S &= \frac{E}{R_T} \\
+%  I_S &= \frac{16~V}{\cfrac{40}{7}~\Omega} = 2.8~A \\
+%\end{align*}
+%
+%End of stupidity \(\uparrow\)
+
+Current through \(12~\Omega\) resistor is 0 A. Because, the current
+source is shorted.
+
+Hence, \(I_3^\prime = 0~A\)
+
+\begin{circuitikz}
+  \draw
+  (0,0) node[ground]{}
+  -- (0,3)
+  to[R, l=$4\Omega$,name=R1] (3,3)
+  to[R] (6,3)
+  to[R, l=$12\Omega$,name=R3] (6,0)
+  -- (0,0);
+  
+  \draw
+  (0,0)
+  -- (3,0)
+  to[short, i=$I_L$] (2,0);
+
+  \draw
+  (6,0)
+  -- (3,0)
+  to[short, i_>=$I_R$] (5,0);
+
+  \draw
+  (0,0)
+  -- (3,0)
+  to[battery1, l=$10V$,i=$I_S$] (3,3);
+
+  \draw
+  (3,3)
+  to[R, l=$2\Omega$,name=R2] (6,3);
+    % Add labels for the resistors
+  \node[anchor=north] at (R1.south) {$R_1$};
+  \node[anchor=north] at (R2.south) {$R_2$};
+  \node[anchor=east] at (R3.south) {$R_3$};
+\end{circuitikz}
+
+\begin{align*}
+  R_a &= R_2+R_3 = 2+12 = 14 \Omega\\
+  R_T &= \frac{R_a R_1}{R_a+R_1} \\
+  R_T &= \frac{14 \cdot 4}{14+4} = 3.11 \Omega \\ 
+  I_S &= \frac{E}{R_T} \\
+  I_S &= \frac{10}{3.11} = 3.22~A \\
+  I_3 &= I_R = I_S \frac{R_1}{R_1+R_a} \\
+  I_3 &= 3.22 \times \frac{4}{4+14} = 0.72~A \\
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    Using the superposition theorem, determine the voltage across the
+    \(4.7 \Omega\) resistor of Fig. 9.120.
+  \item
+    Find the power delivered to the \(4.7 \Omega\) resistor due solely
+    to the current source.
+  \item
+    Find the power delivered to the \(4.7 \Omega\) resistor due solely
+    to the voltage source.
+  \item
+    Find the power delivered to the \(4.7 \Omega\) resistor using the
+    voltage found in part (a).
+  \item
+    How do the results of part (d) compare with the sum of the results
+    to parts (b) and (c)? Can the superposition theorem be applied to
+    power levels?
+  \end{enumerate}
+\end{enumerate}
+
+\includegraphics{image-11.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Using the superposition theorem, determine the current through the
+  \(56 \Omega\) resistor of Fig. 9.121.
+\end{enumerate}
+
+\includegraphics{image-12.png}
+
+\end{document}

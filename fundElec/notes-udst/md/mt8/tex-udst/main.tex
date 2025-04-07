@@ -1,0 +1,258 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\section*{SUPERPOSITION THEOREM}
+
+\subsection*{EXAMPLE 9.1}
+
+Using the superposition theorem, determine current $I_1$ for the network in Fig. 9.2.
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,0) -- (0,3) to[battery, l=$E$, l_=$30V$] (0,3)
+        -- (3,3) node{}
+        (3,3) to[ammeter, name=I] (3,0)
+        (3,3) -- (5,3) to[R=$R_1$, l=$6\Omega$] (5,0) -- (0,0)
+        (3,0) -- (0,0)
+        (5,3) node[above]{$I_1$}
+        (3,3) to[current source, l=$3A$] (3,1.5);
+    \end{circuitikz}
+    \caption{Two-source network to be analyzed using the superposition theorem in Example 9.1.}
+    \label{fig:9.2}
+\end{figure}
+
+\noindent
+\textbf{Solution:} Since two sources are present, there are two networks to be analyzed.
+
+\noindent
+Due to the open circuit, resistor R1 is in parallel with the voltage source E. The voltage across the resistor is the applied voltage, and current I1 is determined by:
+
+$I_{1}^{\prime\prime}=\frac{R_{sc}I}{R_{sc}+R_{1}}=\frac{(0~\Omega)I}{0~\Omega+6~\Omega}=0~A$
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,0) -- (0,3) to[battery, l=$E$, l_=$30V$] (0,3)
+        -- (3,3)
+        (3,3) to[short, name=I] (3,0)
+        (3,3) -- (5,3) to[R=$R_1$, l=$6\Omega$] (5,0) -- (0,0);
+        (5,3) node[above]{$I_1'$}
+    \end{circuitikz}
+    \caption{Determining the effect of the 30 V supply on the current I1 in Fig. 9.2.}
+    \label{fig:9.3}
+\end{figure}
+\noindent
+Now for the contribution due to the current source. Setting the voltage source to zero volts results in the network in Fig. 9.4,
+
+$I_{1}^{\prime}=\frac{R_{sc}I}{R_{sc}+R_{1}}=\frac{(0~\Omega)I}{0~\Omega+6~\Omega}=0~A$
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,3) to[current source, l=$3A$, name=I] (0,0)
+        (0,3) -- (3,3) -- (5,3) to[R=$R_1$, l=$6\Omega$] (5,0) -- (0,0);
+        (5,3) node[above]{$I_1''$}
+    \end{circuitikz}
+    \caption{Determining the effect of the 3 A current source on the current $I_1$ in Fig. 9.2.}
+    \label{fig:9.4}
+\end{figure}
+
+\noindent
+Since $I_{1}^{\prime}$ and $I_{1}^{\prime\prime}$ have the same defined direction in Figs. 9.3 and 9.4, the total current is defined by
+
+$I_{1}=I_{1}^{\prime}+I_{1}^{\prime\prime}=5~A+0~A=5~A$
+
+\subsection*{EXAMPLE 9.2}
+
+Using the superposition theorem, determine the current through the \(12~\Omega\) resistor in Fig. 9.5.
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,4) node[battery, l=$E_1$, l_=$54V$] (E1)
+        (0,0) -- (0,4) node[battery, l=$E_1$, l_=$54V$] (E1)
+        (E1) -- (4,4) to[R=$R_1$, l=$24\Omega$] (4,0) -- (0,0)
+        (4,4) -- (4,2) to[R=$R_2$, l=$12\Omega$, i=$I_2$] (4,0)
+        (4,4) -- (8,4) to[R=$R_3$, l=$4\Omega$] (8,0)
+        (8,4) node[battery, l=$E_2$, l_=$48V$] (E2)
+        (8,0) -- (E2);
+    \end{circuitikz}
+    \caption{Using the superposition theorem to determine the current through the 12 $\Omega$ resistor (Example 9.2).}
+    \label{fig:9.5}
+\end{figure}
+
+\noindent
+Considering the effects of the 54 V source requires replacing the 48 V source by a short-circuit.
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,4) node[battery, l=$E_1$, l_=$54V$] (E1)
+        (0,0) -- (E1)
+        (E1) -- (4,4) to[R=$R_1$, l=$24\Omega$] (4,0) -- (0,0)
+        (4,4) -- (4,2) to[R=$R_2$, l=$12\Omega$, i=$I_2'$] (4,0)
+        (4,4) -- (8,4) to[R=$R_3$, l=$4\Omega$] (8,0) -- (4,0);
+    \end{circuitikz}
+    \caption{Using the superposition theorem to determine the effect of the 54 V voltage source on current $I_2$ in Fig. 9.5.}
+    \label{fig:9.6}
+\end{figure}
+
+\noindent
+The total resistance seen by the source is therefore
+
+$R_{T}=R_{1}+R_{2}||R_{3}=24~\Omega+12~\Omega||4~\Omega=24~\Omega+3~\Omega=27~\Omega$
+
+and the source current is
+
+$I_{s}=\frac{E_{1}}{R_{T}}=\frac{54~V}{27~\Omega}=2~A$
+
+\noindent
+Using the current divider rule results in the contribution to $I_{2}$ due to the 54 V source:
+
+$I_{2}=\frac{R_{3}I_{s}}{R_{3}+R_{2}}=\frac{(4\Omega)(2A)}{4~\Omega+12~\Omega}=0.5~A$
+
+\noindent
+Considering the effects of the 48 V source requires replacing the 54 V source by a short-circuit.
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,4) to[R=$R_1$, l=$24\Omega$] (0,0)
+        (0,4) -- (4,4) -- (4,2) to[R=$R_2$, l=$12\Omega$, i=$I_2''$] (4,0)
+        (4,4) -- (8,4) node[battery, l=$E_2$, l_=$48V$] (E2)
+        (8,0) -- (E2) -- (4,0)
+        (8,4) to[R=$R_3$, l=$4\Omega$] (8,0);
+    \end{circuitikz}
+    \caption{Using the superposition theorem to determine the effect of the 48 V voltage source on current $I_2$ in Fig. 9.5.}
+    \label{fig:9.7}
+\end{figure}
+
+\noindent
+Therefore, the total resistance seen by the 48 V source is
+
+$R_{T}=R_{3}+R_{2}||R_{1}=4~\Omega+12~\Omega||24~\Omega=4~\Omega+8~\Omega=12~\Omega$
+
+and the source current is
+
+$I_{s}=\frac{E_{2}}{R_{T}}=\frac{48~V}{12~\Omega}=4~A$
+
+\noindent
+Applying the current divider rule results in
+
+$I_{2}^{\prime\prime}=\frac{R_{1}(I_{s})}{R_{1}+R_{2}}=\frac{(24~\Omega)(4A)}{24~\Omega+12~\Omega}=2.67~A$
+
+\noindent
+It is now important to realize that current $I_2$ due to each source has a different direction, as shown in Fig. 9.8. The net current therefore is the difference of the two and the direction of the larger as follows:
+
+$I_{2}=I_{2}^{\prime\prime}-I_{2}^{\prime}=2.67A-0.5~A=2.17~A$
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,2) to[R=$R_2$, l=$12\Omega$, i=$I_2'=0.5A$] (0,0)
+        (2,2) to[R=$R_2$, l=$12\Omega$, i=$I_2''=2.67A$, i_=$I_2=2.17A$] (2,0);
+    \end{circuitikz}
+    \caption{Using the results of Figs. 9.6 and 9.7 to determine current $I_2$ for the network in Fig. 9.5.}
+    \label{fig:9.8}
+\end{figure}
+
+\subsection*{EXAMPLE 9.3}
+
+a. Using the superposition theorem, determine the current through resistor $R_2$ for the network in Fig. 9.9.
+
+b. Demonstrate that the superposition theorem is not applicable to power levels.
+
+\noindent
+\textbf{Solutions:}
+
+a. In order to determine the effect of the 36 V voltage source, the current source must be replaced by an open-circuit equivalent as shown in Fig. 9.10. The result is a simple series circuit with a current equal to
+
+$I_{2}=\frac{E}{R_{T}}=\frac{E}{R_{1}+R_{2}}=\frac{36V}{12~\Omega+6~\Omega}=\frac{36~V}{18~\Omega}=2~A$
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,4) node[battery, l=$E$, l_=$36V$] (E)
+        (0,0) -- (E)
+        (E) -- (4,4) to[R=$R_1$, l=$12\Omega$] (4,0) -- (0,0)
+        (4,4) -- (4,2) to[R=$R_2$, l=$6\Omega$, i=$I_2$] (4,0)
+        (4,4) -- (8,4) to[current source, l=$9A$] (8,0);
+        (8,4) node[right]{};
+    \end{circuitikz}
+    \caption{Network to be analyzed in Example 9.3 using the superposition theorem.}
+    \label{fig:9.9}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,4) node[battery, l=$E$, l_=$36V$] (E)
+        (0,0) -- (E)
+        (E) -- (4,4) to[R=$R_1$, l=$12\Omega$] (4,0) -- (0,0)
+        (4,4) -- (4,2) to[R=$R_2$, l=$6\Omega$, i=$I_2'$] (4,0);
+    \end{circuitikz}
+    \caption{Current source replaced by open circuit.}
+    \label{fig:9.10}
+\end{figure}
+
+\noindent
+Examining the effect of the 9 A current source requires replacing the 36 V voltage source by a short-circuit equivalent as shown in Fig. 9.11. The result is a parallel combination of resistors $R_1$ and $R_2$. Applying the current divider rule results in
+
+$I_{2}^{\prime\prime}=\frac{R_{1}(I)}{R_{1}+R_{2}}=\frac{(12~\Omega)(9~A)}{12~\Omega+6~\Omega}=6~A$
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,4) to[R=$R_1$, l=$12\Omega$] (0,0)
+        (0,4) -- (4,4)
+        (4,4) -- (4,2) to[R=$R_2$, l=$6\Omega$, i=$I_2''$] (4,0)
+        (4,4) -- (8,4) to[current source, l=$I=9A$] (8,0)
+    \end{circuitikz}
+    \caption{Replacing the 36 V voltage source by a short-circuit equivalent to determine the effect of the 9 A current source on current $I_2$.}
+    \label{fig:9.11}
+\end{figure}
+
+\noindent
+Since the contribution to current $I_2$ has the same direction for each source, as shown in Fig. 9.12, the total solution for current $I_2$ is the sum of the currents established by the two sources. That is,
+
+$I_{2}=I_{2}^{\prime}+I_{2}^{\prime\prime}=2A+6~A=8~A$
+
+\begin{figure}[h!]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) node[ground]{}
+        (0,3) to[current source, l=$3A$, name=I] (0,0)
+        (0,3) -- (3,3) -- (5,3) to[R=$R_1$, l=$6\Omega$] (5,0) -- (0,0);
+        (5,3) node[above]{$I_1''$}
+    \end{circuitikz}
+    \caption{Determining the effect of the 3 A current source on the current $I_1$ in Fig. 9.2.}
+    \label{fig:9.4}
+\end{figure}
+
+\end{document}
+

@@ -1,0 +1,110 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (September 10, 2021)
+%
+% Authors:
+% Stefano (https://www.kindoblue.nl)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, oneside, final]{scrartcl} % Document class
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+
+\usepackage{scrlayer-scrpage} % For header and footer customization
+\usepackage{titlesec} % Custom section formatting
+\usepackage{marvosym} % Symbols for email and phone
+\usepackage{tabularx, colortbl} % Enhanced table functionality
+\usepackage{ebgaramond} % EB Garamond font
+\usepackage{microtype} % Better typography and spacing
+\usepackage{xcolor} % Color customization
+\usepackage{graphicx} % To include the photo
+
+%----------------------------------------------------------------------------------------
+%	SECTION FORMAT
+%----------------------------------------------------------------------------------------
+
+\titleformat{\section}{\large\bfseries\raggedright}{}{0em}{}[\titlerule] % Section styling
+
+%----------------------------------------------------------------------------------------
+%	PAGE LAYOUT ADJUSTMENTS
+%----------------------------------------------------------------------------------------
+
+\addtolength{\voffset}{-0.5in} % Reduce top margin
+\addtolength{\textheight}{3cm} % Increase text height
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center}
+
+%----------------------------------------------------------------------------------------
+%	HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{}p{0.65\textwidth}p{0.3\textwidth}@{}}
+    \vspace{-2.0cm} % Reduces the whitespace above the name
+    {\fontsize{36}{36}\selectfont\rmfamily Fairoos Mohammed Kunhi} & 
+    \includegraphics[width=38mm,height=48mm,keepaspectratio]{photo.png} \\ \\
+    {\fontsize{12.5}{17}\selectfont
+        Building No 32 {\large\textperiodcentered} Ibn Nusair Street {\large\textperiodcentered} Doha {\large\textperiodcentered} Qatar \\
+        {\Large\Letter} fairoosmohd2@gmail.com \\ 
+        {\Large\Telefon} (974) 4483-1520 \ {\Large\Mobilefone} (974) 6695-7768
+    } & \\ 
+\end{tabular}
+
+\vspace{1.5cm} % Space after header section
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Objective}
+
+A first-year Engineering student seeking a paid internship to gain hands-on experience and develop industry-relevant skills.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\bfseries}p{2.5cm}X}
+\rowcolor[gray]{.90} Period & Institution and Details \\ \hline
+2018--2022 & Ideal Indian School \\
+2022--2024 & G.M.H.S.S. Perinthalmanna \\
+2024--Present & University of Doha for Science and Technology \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{tabularx}{0.97\linewidth}{>{\bfseries}l X}
+Programming & Basic knowledge of LaTeX and Bash. \\
+Technical Tools & Familiarity with Linux, MS Word and MS Excel. \\
+Soft Skills & Strong analytical and problem-solving skills. \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+Available upon request.
+
+\end{center}
+
+\end{document}

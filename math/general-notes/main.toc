@@ -1,0 +1,168 @@
+\contentsline {chapter}{\numberline {1}To Study}{1}{chapter.1}%
+\hypertarget {chap-1}{}
+\contentsline {part}{I\hspace {1em}Number Theory}{2}{part.1}%
+\contentsline {chapter}{\numberline {2}null}{3}{chapter.2}%
+\hypertarget {chap-2}{}
+\hypertarget {sec-2.1}{}
+\contentsline {section}{\numberline {2.1}Types}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Prime Numbers}{4}{chapter.3}%
+\hypertarget {chap-3}{}
+\hypertarget {sec-3.1}{}
+\contentsline {section}{\numberline {3.1}To find a prime number}{4}{section.3.1}%
+\hypertarget {subsec-3.1.1}{}
+\contentsline {subsection}{\numberline {3.1.1}Some tips}{4}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Addition}{5}{chapter.4}%
+\hypertarget {chap-4}{}
+\hypertarget {sec-4.1}{}
+\contentsline {section}{\numberline {4.1}LCD}{5}{section.4.1}%
+\contentsline {part}{II\hspace {1em}Geometry}{6}{part.2}%
+\contentsline {chapter}{\numberline {5}Graphs}{7}{chapter.5}%
+\hypertarget {chap-5}{}
+\contentsline {chapter}{\numberline {6}Angles}{8}{chapter.6}%
+\hypertarget {chap-6}{}
+\hypertarget {sec-6.1}{}
+\contentsline {section}{\numberline {6.1}Types}{8}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Area}{9}{chapter.7}%
+\hypertarget {chap-7}{}
+\hypertarget {sec-7.1}{}
+\contentsline {section}{\numberline {7.1}3D}{9}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Straight Lines}{10}{chapter.8}%
+\hypertarget {chap-8}{}
+\contentsline {chapter}{\numberline {9}Conic Sections}{11}{chapter.9}%
+\hypertarget {chap-9}{}
+\hypertarget {sec-9.1}{}
+\contentsline {section}{\numberline {9.1}Circles}{11}{section.9.1}%
+\hypertarget {sec-9.2}{}
+\contentsline {section}{\numberline {9.2}Parabola}{12}{section.9.2}%
+\hypertarget {subsec-9.2.1}{}
+\contentsline {subsection}{\numberline {9.2.1}For vertical symmetry}{12}{subsection.9.2.1}%
+\hypertarget {subsec-9.2.2}{}
+\contentsline {subsection}{\numberline {9.2.2}For Horizontal Symmetry}{12}{subsection.9.2.2}%
+\hypertarget {subsec-9.2.3}{}
+\contentsline {subsection}{\numberline {9.2.3}Vertex Formula}{13}{subsection.9.2.3}%
+\hypertarget {sec-9.3}{}
+\contentsline {section}{\numberline {9.3}Ellipse}{13}{section.9.3}%
+\hypertarget {sec-9.4}{}
+\contentsline {section}{\numberline {9.4}Hyperbola}{13}{section.9.4}%
+\contentsline {subsubsection}{Graphing}{14}{section.9.4}%
+\hypertarget {sec-9.5}{}
+\contentsline {section}{\numberline {9.5}General Form of Conic Sections}{14}{section.9.5}%
+\contentsline {part}{III\hspace {1em}Algebra}{15}{part.3}%
+\contentsline {chapter}{\numberline {10}Mathematical Induction}{16}{chapter.10}%
+\hypertarget {chap-10}{}
+\contentsline {chapter}{\numberline {11}Sets}{17}{chapter.11}%
+\hypertarget {chap-11}{}
+\hypertarget {sec-11.1}{}
+\contentsline {section}{\numberline {11.1}Some definitions}{17}{section.11.1}%
+\hypertarget {sec-11.2}{}
+\contentsline {section}{\numberline {11.2}\nameref {sec:DRoF}}{17}{section.11.2}%
+\contentsline {chapter}{\numberline {12}Relations}{18}{chapter.12}%
+\hypertarget {chap-12}{}
+\contentsline {chapter}{\numberline {13}Functions}{19}{chapter.13}%
+\hypertarget {chap-13}{}
+\hypertarget {sec-13.1}{}
+\contentsline {section}{\numberline {13.1}Types:}{19}{section.13.1}%
+\hypertarget {subsec-13.1.1}{}
+\contentsline {subsection}{\numberline {13.1.1}Proving if a function is a specific type}{20}{subsection.13.1.1}%
+\contentsline {subsubsection}{Function}{20}{subsection.13.1.1}%
+\hypertarget {sec-13.2}{}
+\contentsline {section}{\numberline {13.2}Solving}{20}{section.13.2}%
+\hypertarget {sec-13.3}{}
+\contentsline {section}{\numberline {13.3}Different functions}{20}{section.13.3}%
+\hypertarget {subsec-13.3.1}{}
+\contentsline {subsection}{\numberline {13.3.1}D \& R}{20}{subsection.13.3.1}%
+\hypertarget {subsec-13.3.2}{}
+\contentsline {subsection}{\numberline {13.3.2}Finding Domain}{20}{subsection.13.3.2}%
+\hypertarget {subsec-13.3.3}{}
+\contentsline {subsection}{\numberline {13.3.3}Finding Range}{21}{subsection.13.3.3}%
+\hypertarget {sec-13.4}{}
+\contentsline {section}{\numberline {13.4}Other Types of Functions}{21}{section.13.4}%
+\hypertarget {subsec-13.4.1}{}
+\contentsline {subsection}{\numberline {13.4.1}Exponential Functions}{21}{subsection.13.4.1}%
+\contentsline {subsubsection}{Properties}{21}{subsection.13.4.1}%
+\contentsline {subsubsection}{Graphing}{21}{subsection.13.4.1}%
+\contentsline {subsubsection}{Types}{22}{subsection.13.4.1}%
+\hypertarget {subsec-13.4.2}{}
+\contentsline {subsection}{\numberline {13.4.2}Logarithmic Functions}{22}{subsection.13.4.2}%
+\contentsline {subsubsection}{Properties INmcomplete}{22}{subsection.13.4.2}%
+\hypertarget {sec-13.5}{}
+\contentsline {section}{\numberline {13.5}Specific functions}{23}{section.13.5}%
+\hypertarget {sec-13.6}{}
+\contentsline {section}{\numberline {13.6}Symmetry of Functions}{23}{section.13.6}%
+\hypertarget {sec-13.7}{}
+\contentsline {section}{\numberline {13.7}Inverse Functions}{23}{section.13.7}%
+\hypertarget {sec-13.8}{}
+\contentsline {section}{\numberline {13.8}End behaviour}{24}{section.13.8}%
+\hypertarget {sec-13.9}{}
+\contentsline {section}{\numberline {13.9}Zeroes \& Multiplicity}{24}{section.13.9}%
+\hypertarget {sec-13.10}{}
+\contentsline {section}{\numberline {13.10}Graphing}{24}{section.13.10}%
+\hypertarget {subsec-13.10.1}{}
+\contentsline {subsection}{\numberline {13.10.1}Transformations}{24}{subsection.13.10.1}%
+\hypertarget {sec-13.11}{}
+\contentsline {section}{\numberline {13.11}System of equations}{25}{section.13.11}%
+\hypertarget {subsec-13.11.1}{}
+\contentsline {subsection}{\numberline {13.11.1}Solving by the Graphical Method}{25}{subsection.13.11.1}%
+\hypertarget {subsec-13.11.2}{}
+\contentsline {subsection}{\numberline {13.11.2}Solving by the The Substitution Method}{25}{subsection.13.11.2}%
+\hypertarget {subsec-13.11.3}{}
+\contentsline {subsection}{\numberline {13.11.3}Solving by the Addition Method}{25}{subsection.13.11.3}%
+\contentsline {chapter}{\numberline {14}Equations}{26}{chapter.14}%
+\hypertarget {chap-14}{}
+\contentsline {chapter}{\numberline {15}Trigonometry}{27}{chapter.15}%
+\hypertarget {chap-15}{}
+\hypertarget {sec-15.1}{}
+\contentsline {section}{\numberline {15.1}Sum and Difference Formulas}{27}{section.15.1}%
+\hypertarget {sec-15.2}{}
+\contentsline {section}{\numberline {15.2}Angles, Trig. \& Quadrants}{29}{section.15.2}%
+\hypertarget {sec-15.3}{}
+\contentsline {section}{\numberline {15.3}Domain \& Range}{30}{section.15.3}%
+\hypertarget {sec-15.4}{}
+\contentsline {section}{\numberline {15.4}\href {https://www.youtube.com/watch?v=fo_q9mEAFp4&t=2472s}{Graphing}}{31}{section.15.4}%
+\hypertarget {sec-15.5}{}
+\contentsline {section}{\numberline {15.5}Specific Problems}{31}{section.15.5}%
+\hypertarget {subsec-15.5.1}{}
+\contentsline {subsection}{\numberline {15.5.1}Simplify Trigonometric Expressions}{32}{subsection.15.5.1}%
+\hypertarget {subsec-15.5.2}{}
+\contentsline {subsection}{\numberline {15.5.2}Verify Trigonometric identities}{32}{subsection.15.5.2}%
+\hypertarget {subsec-15.5.3}{}
+\contentsline {subsection}{\numberline {15.5.3}Write an algebric expression as a trigonometric expression}{32}{subsection.15.5.3}%
+\hypertarget {sec-15.6}{}
+\contentsline {section}{\numberline {15.6}Genereal structure}{32}{section.15.6}%
+\contentsline {chapter}{\numberline {16}Inequalities}{33}{chapter.16}%
+\hypertarget {chap-16}{}
+\hypertarget {sec-16.1}{}
+\contentsline {section}{\numberline {16.1}Solving Linear Inequalities}{33}{section.16.1}%
+\contentsline {chapter}{\numberline {17}Straight Lines}{34}{chapter.17}%
+\hypertarget {chap-17}{}
+\contentsline {chapter}{\numberline {18}Limits}{35}{chapter.18}%
+\hypertarget {chap-18}{}
+\contentsline {chapter}{\numberline {19}Derivatives}{36}{chapter.19}%
+\hypertarget {chap-19}{}
+\contentsline {chapter}{\numberline {20}Statistics}{38}{chapter.20}%
+\hypertarget {chap-20}{}
+\contentsline {chapter}{\numberline {21}Matrices}{39}{chapter.21}%
+\hypertarget {chap-21}{}
+\hypertarget {sec-21.1}{}
+\contentsline {section}{\numberline {21.1}Types of Matrices}{39}{section.21.1}%
+\hypertarget {sec-21.2}{}
+\contentsline {section}{\numberline {21.2}Properties of Matrices}{40}{section.21.2}%
+\hypertarget {sec-21.3}{}
+\contentsline {section}{\numberline {21.3}Operations with Matrices}{40}{section.21.3}%
+\hypertarget {subsec-21.3.1}{}
+\contentsline {subsection}{\numberline {21.3.1}Gaussian Elimination \& Row echolon form}{40}{subsection.21.3.1}%
+\hypertarget {subsec-21.3.2}{}
+\contentsline {subsection}{\numberline {21.3.2}Gaussian Elimination \& Row Echelon Form}{40}{subsection.21.3.2}%
+\contentsline {part}{IV\hspace {1em}Calculus}{41}{part.4}%
+\contentsline {chapter}{\numberline {22}Continuity}{42}{chapter.22}%
+\hypertarget {chap-22}{}
+\contentsline {part}{V\hspace {1em}Combinatorics}{43}{part.5}%
+\contentsline {chapter}{\numberline {23}Permutations}{45}{chapter.23}%
+\hypertarget {chap-23}{}
+\contentsline {chapter}{\numberline {24}Combinations}{46}{chapter.24}%
+\hypertarget {chap-24}{}
+\contentsline {part}{VI\hspace {1em}Probability}{47}{part.6}%
+\contentsline {chapter}{\numberline {25}Definitions}{48}{chapter.25}%
+\hypertarget {chap-25}{}
+\contentsline {chapter}{\numberline {26}Some operations}{49}{chapter.26}%
+\hypertarget {chap-26}{}

@@ -1,0 +1,59 @@
+---
+title: "Your Document Title"
+format:
+  pdf:
+    documentclass: book
+    pdf-engine: latexmk 
+    classoption: ["oneside", "open=any"]
+    margin-left: "1in"
+    margin-right: "1in"
+    margin-top: "1in"
+    margin-bottom: "1in" 
+    mainfont: Arial
+    linestretch: 2
+    include-in-header: 
+      - text: | 
+          \usepackage{tikz}
+          \usepackage{booktabs}
+          \usepackage{chemfig}
+---
+
+## Chemical Structure Example
+
+Here is an example of a chemical structure:
+
+```{=latex}
+\begin{tikzpicture}
+  % Draw a rectangle
+  \draw (0,0) rectangle (3,2);
+
+  % Draw a line from the bottom-left corner to the top-right corner
+  \draw (0,0) -- (3,2);
+
+  % Draw a circle in the center
+  \draw (1.5,1) circle (0.5);
+
+  % Add some text
+  \node at (1.5,1) {Center};
+
+  % Draw an arrow
+  \draw[->] (3,0) -- (4,1);
+  \node[right] at (4,1) {An arrow};
+
+  % Draw a filled circle (dot)
+  \filldraw (0,2) circle (0.1);
+
+    % A more complex example with styles and options
+    \draw[thick, red, fill=yellow, fill opacity=0.5] (0,3) rectangle (2,4);
+    \draw[blue, dashed] (0,3) -- (2,4);
+
+    % Using coordinates for more complex shapes
+    \coordinate (A) at (5,0);
+    \coordinate (B) at (6,2);
+    \coordinate (C) at (7,0);
+    \draw (A) -- (B) -- (C) -- cycle; % Draws a triangle
+
+    % Adding a grid for easier positioning
+    \draw[gray, very thin] (0,0) grid (7,4);
+
+\end{tikzpicture}

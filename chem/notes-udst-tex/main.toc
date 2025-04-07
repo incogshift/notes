@@ -1,0 +1,49 @@
+\contentsline {part}{I\hspace {1em}Chemistry - A Molecular Approach}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}Matter, Measurement, and Problem Solving}{2}{chapter.1}%
+\hypertarget {chap-1}{}
+\hypertarget {sec-1.1}{}
+\contentsline {section}{\numberline {1.1}null}{2}{section.1.1}%
+\hypertarget {sec-1.2}{}
+\contentsline {section}{\numberline {1.2}The Scientific Approach to Knowledge}{2}{section.1.2}%
+\hypertarget {sec-1.3}{}
+\contentsline {section}{\numberline {1.3}The Classification of Matter}{3}{section.1.3}%
+\hypertarget {subsec-1.3.1}{}
+\contentsline {subsection}{\numberline {1.3.1}The States of Matter}{3}{subsection.1.3.1}%
+\hypertarget {sec-1.4}{}
+\contentsline {section}{\numberline {1.4}misc}{3}{section.1.4}%
+\hypertarget {subsec-1.4.1}{}
+\contentsline {subsection}{\numberline {1.4.1}Laws:}{3}{subsection.1.4.1}%
+\hypertarget {sec-1.5}{}
+\contentsline {section}{\numberline {1.5}Units \& Measurements}{4}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Periodic Properties of Elements}{5}{chapter.2}%
+\hypertarget {chap-2}{}
+\contentsline {chapter}{\numberline {3}Molecules and Compounds}{6}{chapter.3}%
+\hypertarget {chap-3}{}
+\hypertarget {sec-3.1}{}
+\contentsline {section}{\numberline {3.1}Compounds}{6}{section.3.1}%
+\hypertarget {sec-3.2}{}
+\contentsline {section}{\numberline {3.2}Chemical Bonds}{6}{section.3.2}%
+\hypertarget {subsec-3.2.1}{}
+\contentsline {subsection}{\numberline {3.2.1}Ionic Bonds}{6}{subsection.3.2.1}%
+\hypertarget {subsec-3.2.2}{}
+\contentsline {subsection}{\numberline {3.2.2}Covalent Bonds}{6}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Molecules and Compounds}{8}{chapter.4}%
+\hypertarget {chap-4}{}
+\hypertarget {sec-4.1}{}
+\contentsline {section}{\numberline {4.1}Acids}{8}{section.4.1}%
+\hypertarget {subsec-4.1.1}{}
+\contentsline {subsection}{\numberline {4.1.1}Binary Acids}{8}{subsection.4.1.1}%
+\contentsline {subsubsection}{Nomenclature}{8}{subsection.4.1.1}%
+\hypertarget {subsec-4.1.2}{}
+\contentsline {subsection}{\numberline {4.1.2}Oxyacids}{8}{subsection.4.1.2}%
+\contentsline {subsubsection}{Nomenclature}{9}{subsection.4.1.2}%
+\contentsline {chapter}{\numberline {5}Names of compunds}{10}{chapter.5}%
+\hypertarget {chap-5}{}
+\hypertarget {sec-5.1}{}
+\contentsline {section}{\numberline {5.1}Formula Mass}{10}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Basic Concepts of Chemical Bonding}{11}{chapter.6}%
+\hypertarget {chap-6}{}
+\hypertarget {sec-6.1}{}
+\contentsline {section}{\numberline {6.1}Lewis structure of Atoms}{11}{section.6.1}%
+\contentsline {chapter}{\numberline {7}The Quantum Mechanical Model of The Atom}{12}{chapter.7}%
+\hypertarget {chap-7}{}

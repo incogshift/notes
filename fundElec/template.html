@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$title$</title>
+    
+    <!-- Load Latin Modern font (LaTeX default) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/latex-css/1.0.2/latex.min.css">
+    <style>
+        /* General styles */
+        body {
+            background-color: #222222; /* Dark Grey Background */
+            color: #eeeeee; /* Light Grey Text */
+            font-family: "Latin Modern Roman", "Computer Modern", serif; /* LaTeX Default Font */
+            margin: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff; /* White headings */
+        }
+        a {
+            color: #76c7c0; /* Light teal links */
+        }
+        a:hover {
+            color: #ffcc00; /* Yellow highlight on hover */
+        }
+        pre, code {
+            background-color: #333333; /* Slightly lighter dark grey for code blocks */
+            color: #eeeeee; /* Light text */
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Latin Modern Mono", "Computer Modern Typewriter", monospace;
+        }
+        blockquote {
+            border-left: 4px solid #888888;
+            padding-left: 10px;
+            color: #cccccc;
+        }
+    </style>
+
+    <!-- Load MathJax for LaTeX support -->
+    <script type="text/javascript" async
+      src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+<body>
+    <h1>$title$</h1>
+    <hr>
+    $body$
+</body>
+</html>

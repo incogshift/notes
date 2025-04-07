@@ -1,0 +1,137 @@
+\documentclass[openany]{book}
+
+\usepackage{inctech}
+\graphicspath{ {./images/} }
+
+%temp
+
+\begin{document}
+
+% Front matter
+\frontmatter
+\tableofcontents
+\clearpage
+
+% Main content
+\mainmatter
+
+\raggedright
+
+\section{Significant digits}
+
+\begin{itemize}
+    \item All non zeros are significant
+    \item Interior Zeros are not significant
+    \item Leading zeroes are not significant
+    \item Trailing zeros:
+        \begin{itemize}
+            \item with decimal point are significant
+            \item without decimal point are not significant
+            \item before an implied decimal point is ambiguous and should be avaided
+        \end{itemize}
+\end{itemize}
+
+\subsection{Exact numbers}
+
+They have an inifinite number of significant figures ( no uncertainty )
+
+They can be 2 things:
+
+\begin{itemize}
+    \item Countable number
+    \item From a definition    
+\end{itemize}
+
+\subsection{Addition \& Subtraction}
+
+The result should have the same number of precision digits as the number with the least number of precision digits. 
+
+ex: \( 132.853-5=128 \)
+
+\subsection{Multiplication \& Division}
+
+    The result should have the same number of significant digits as the number with the least S.D.
+
+\section{Notations}
+
+\begin{itemize}
+    \item Floating
+    \item Scientific notation
+
+    \(A.B.. \times 10^n \), where A is b/w 1-9
+    \item Engineering notation
+    
+    \( AAA.BB.. \times 10^n \), where n is a multiple of 3 \& only 3 digits are before the decimal point
+\end{itemize}
+
+\section{Math Prefixes \& Engineering Notation}
+
+Uppercases letter are used for abbreviations of the prefixes of +ve powers ivolving 10, while lowercase is used for -ve powers 
+
+\chapter{}
+
+\begin{tabular}{c c c}
+    Conductor & Semi-conductor & Insulator \\
+    \hline
+    Loosely bound e&
+        more tightly bound e&
+        tightly bound e\\
+    
+    Best :
+    with 1 electron in outer shell &
+    Usually 4 e in outer shell&
+    with 6-8 electron in outer shell\\
+    \\
+\end{tabular}
+
+\subsection{Power}
+
+\(P=VI\)
+
+Electrical Horsepower
+
+\(1\ hp \cong 746\ watts \)
+
+\chapter{Parallel Circuits}
+
+\begin{equation*}
+    R_T = \Sigma \frac{1}{R_n}
+\end{equation*}
+
+In a parallel circuit, the total resistance should be less than the resistor with lowest resistance. 
+
+\section{Kirchoff's Current Law (KCL)}
+
+\begin{align*}
+    \Sigma I_i &= \Sigma I_o \\
+    \text{or} \\
+    \Sigma I &= 0 \\
+\end{align*}
+
+\section{Current Division in Parallel Circuits}
+
+The voltage V can then be determined using Ohm’s law
+
+Since the voltage V is the same across parallel elements.
+
+The current divider rule:
+\[I_x=\frac{R_T}{R_x}I_T\]
+
+Proof:
+
+
+
+For 2 resistors:
+
+\begin{align*}
+    \text{For I\textsubscript{1}:} \\ I_1 = \frac{I_TR_2}{R_1+R_2} \\
+    \text{For I\textsubscript{2}:} \\ I_2 = \frac{I_TR_1}{R_1+R_2} \\
+\end{align*}
+
+Proof:
+
+\chapter{Series-Parallel Circuits}
+
+Current source can't be connected in series. Only in parallel. 
+
+\end{document}
