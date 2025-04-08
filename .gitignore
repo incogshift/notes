@@ -1,1 +1,4 @@
 *.pdf
+
+# MyST build outputs
+_build

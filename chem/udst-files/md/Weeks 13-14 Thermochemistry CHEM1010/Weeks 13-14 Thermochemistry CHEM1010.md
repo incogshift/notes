@@ -465,11 +465,14 @@ b. △H = -2658 kilo Joule ; △E = -3 kilo Joule c. △H = -2658 kilo Joule ; �
 
 # Measuring AE calculation
 
-EXAMPLE: When 1 mol liquid $\mathrm{H}_2$O is boiled at 100° C and 1.0 atm pressure, its volume expands from 19.8 mL in the liquid state to 30.16 L in the gaseous state. The heat energy absorbed by the vaporization $(\mathrm{q}_{\mathrm{p}})$ process is found experimentally to be 40.67 kJ. Calculate the increase in internal energy $\Delta E$ of $\mathrm{H}_2$O . Given that Step 1: Convert Volumes to $\Delta V$
+\```{exercise}
+:class: dropdown
+
+1. When 1 mol liquid $\mathrm{H}_2$O is boiled at 100° C and 1.0 atm pressure, its volume expands from 19.8 mL in the liquid state to 30.16 L in the gaseous state. The heat energy absorbed by the vaporization $(\mathrm{q}_{\mathrm{p}})$ process is found experimentally to be 40.67 kJ. Calculate the increase in internal energy $\Delta E$ of $\mathrm{H}_2$O . Given that Step 1: Convert Volumes to $\Delta V$
 
 Given:
 
-Initial volume $(V_{\text{initial}})=$ 19.8 mL = 0.0198 L (converted to liters),
+Initial volume $(V_{\text{initial}})= 19.8 mL = 0.0198 L$ (converted to liters),
 
 -Final volume $(V_{\mathrm{final}})=30.16$
 
@@ -477,7 +480,7 @@ $$\Delta V=V_\mathrm{final}-V_\mathrm{initial}=30.16\:\mathrm{L}-0.0198\:\mathrm
 
 To calculate the increase in internal energy (△E) for the vaporization of 1 mole of $\mathrm{H}_{2}$O, we use the relationship between enthalpy change $(\Delta H)$ and internal energy change $(\Delta E)$
 
-### Step 2: Calculate $P\Delta V$ in Joules
+Step 2: Calculate $P\Delta V$ in Joules
 
 To convert the work term $P\Delta V$ to joules,use the conversion factor1L $\cdot$atm=101.325 J
 
@@ -487,7 +490,7 @@ $$P\Delta V=(1.0\:\mathrm{atm})\times(30.1402\:\mathrm{L})\times(101.325\:\mathr
 
 where:
 
-### Step 3: Solve for $\Delta E$
+Step 3: Solve for $\Delta E$
 
 。$\Delta H$ is the enthalpy change (heat absorbed at constant pressure), which is given as 40.67 kJ,
 
@@ -497,16 +500,13 @@ Rearrange the equation to find $\Delta E$
 
 $$\Delta E=\Delta H-P\Delta V\\\Delta E=40.67\:\mathrm{kJ}-3.051\:\mathrm{kJ}=37.619\:\mathrm{kJ}$$
 
-### Answer:
-
++++
 ## Endothermic and Exothermic Reactions
 
-When △H is positive, heat is being absorbed by the system - endothermic reaction
-
-- When △H is negative, heat is being released by the system: exothermic reaction
-
-The value of △H for a chemical reaction is the amount of heat absorbed or evolved in the reaction under conditions of constant pressure
-
+- The value of $\Delta H$ for a chemical reaction is the amount of heat absorbed or evolved in the reaction under conditions of constant pressure
+  - When $\Delta H$ is positive, heat is being absorbed by the system - endothermic reaction
+  - When $\Delta H$ is negative, heat is being released by the system - exothermic reaction
++++
 # Enthalpy
 
  Enthalpy can change in 2 ways:
@@ -515,42 +515,52 @@ The value of △H for a chemical reaction is the amount of heat absorbed or evol
 
 - Chemical changes (i.e. combustion reaction, combination reaction)
 
-- Is MELTING endothermic or exothermic? -△H is positive or negative?
+\```{exercise}
+:class: dropdown
 
-- Is FREEZING endothermic or exothermic? -△H is positive or negative?
+ Is MELTING endothermic or exothermic? -△H is positive or negative?
 
-Endothermic
+ Is FREEZING endothermic or exothermic? -△H is positive or negative?
+\```
 
-Exothermic
++++
 
 # Enthalpy
 
- ENTHALPY DIAGRAMS: also called potential energy diagrams
+ENTHALPY DIAGRAMS: also called potential energy diagrams
 
 - Show the enthalpy of a reaction as a graph
 
 Endothermic
 
-Exothermic
-
 ![](./images/f8MpDtVCWzvHfHoEIcQCBM12e16Ff6WwQ.png)
+
+Exothermic
 
 ![](./images/fb28dB7hGH1naGYlRxnXFwLuT2EFdQ5or.png)
 
-## Enthalpy Diagram for Water Formation
+- $E_a$ = activation energy or the energy of activation:
+  - The minimum energy, for the reactant, required to cross the mountain or to be supplied to become a product.
 
-What is △H? Is this endo- or exothermic?
+
+
+\```{exercise} Enthalpy Diagram for Water Formation
+:class: dropdown
+
+What is $\Delta H$? Is this endo- or exothermic?
 
 ![](./images/fiXltA2UuYAPN7x4oYxRtYf3KCs2Xs9e1.png)
 
 - Draw an enthalpy diagram for this reaction:
 
-△H = -882.0 kJ/mol
-$$\mathrm{CH_{4(g)}+2~O_{2(g)}\to CO_{2(g)}+2~H_2O_{(g)}}$$
 
+$$\mathrm{CH_{4(g)}+2~O_{2(g)}\to CO_{2(g)}+2~H_2O_{(g)}} \quad ,\Delta H = -882.0 kJ/mol$$
+
+\```
++++
 # Enthalpy
 
-Most reactions have enthalpy changes Can be written in two ways:
+Most reactions have enthalpy changes can be written in two ways:
 
 $$\mathrm{CH_{4(g)}+2~O_{2(g)}\to CO_{2(g)}+2~H_2O_{(g)}}$$
 
@@ -562,16 +572,18 @@ $$\Delta\mathbf{H}=-882.0\mathrm{~kJ/mol}$$
 $$\mathrm{CH}_{{4\mathrm{~(g)}}}+2\mathrm{~O}_{{2\mathrm{~(g)}}}\to\mathrm{CO}_{{2\mathrm{~(g)}}}+2\mathrm{~H}_{2}\mathrm{O}_{{(\mathrm{g)}}}+$$
 THERMOCHEMICAL EOUATION
 
-# Concept Check
++++
+
+\```{exercise}
+:class: dropdown
 
 - Write a thermochemical equation for each example below.
 
-k] /mol a)
 $$2\mathrm{~Mg~}_{(\mathrm{s})}+0_{2\mathrm{~}(\mathrm{g})}\to2\mathrm{~MgO~}_{(\mathrm{s})}\Delta\mathrm{H}=-602$$
 
 $$\boxed{2\mathrm{~Mg~}_{(s)}+0_{2\mathrm{~}(g)}\to2\mathrm{~MgO~}_{(s)}+602\mathrm{~kJ}}$$
 
-$$\text{)N}_{2\:(\mathrm{g})}+2\:0_{2\:(\mathrm{g})}\to2\:\mathrm{NO}_{2\:(\mathrm{g})}\quad\Delta\mathrm{H}=+33$$
+$$\text{N}_{2\:(\mathrm{g})}+2\:0_{2\:(\mathrm{g})}\to2\:\mathrm{NO}_{2\:(\mathrm{g})}\quad\Delta\mathrm{H}=+33$$
 
 $$\boxed{\mathrm{N_{2(g)}+2~O_{2(g)}+33.2~kJ\to2~NO_{2(g)}}}$$
 
@@ -580,18 +592,19 @@ $$2\mathrm{~HF}_{(\mathrm{g})}\to\mathrm{H}_{2\mathrm{~(g)}}+\mathrm{F}_{2\mathr
 
 $$\boxed{2\mathrm{~HF}_{(\mathbf{g})}+547\mathrm{~kJ}\to\mathrm{H}_{2\mathrm{~(g)}}+\mathrm{F}_{2\mathrm{~(g)}}}$$
 
++++
+
 # Enthalpy
 
 You can figure out how much heat is produced in any reaction using a MOLE RATIO
 
-## 882 kJ
 $$\mathrm{CH_{4(g)}+2~O_{2(g)}\to CO_{2(g)}+2~H_2O_{(g)}+}$$
 
 ![](./images/fNLkwg4CigxRqLCwLqFgFlEGO1EBBve1T.png)
 
 ![](./images/fdw91yelbKv2gGwagSIugCFsa82CTrgVT.png)
 
-$$\mathbf{n_{(^{CH4})}=\frac m{MM}=\frac{30.0g}{16.0424_6g/mol}=1.87_{0037388}~mol~CH_4}$$
+$$\mathrm{n_{(^{CH4})}=\frac m{MM}=\frac{30.0g}{16.0424_6g/mol}=1.87_{0037388}~mol~CH_4}$$
 
 ![](./images/fUwnCrl9HrTFglx2GHvTHUkEGqarBvZDG.png)
 
@@ -599,15 +612,13 @@ $$\mathbf{n_{(^{CH4})}=\frac m{MM}=\frac{30.0g}{16.0424_6g/mol}=1.87_{0037388}~m
 
 How can we measure △H in real life?
 
-![](./images/fv6GQ57EBIg2sgL0Mgp3ZOgXGbhp4MGw0.png)
-
-# Enthalpy
 
 - Enthalpy changes can also be measured in calorimeters:
 
 ![](./images/fiKd8gu8eF33Wc8lk6kd1BAqsqyeGxATU.png)
-
-# Enthalpy
++++
+\```{exercise}
+:class: dropdown
 
 Example: It takes 1.24 kJ of heat to melt 5.00 g of iron. What is AHfusion for iron?
 
@@ -617,8 +628,6 @@ q = n × △H; or △H = 1
 
 1.24 k] △H= 0.08953353 mol △H = 13.84956 kJ/m0l
 
-# Enthalpy
-
 Example: 1.00 g of methane is burned in a calorimeter filled with 500.00 g of water. The temperature of the water increases from 20.0oC to 46.3oC. What is △H for this reaction?
 
 q = mCs△T = (500.00)(4.184)(46.3 - 20.0) =55. 0196kJ
@@ -626,9 +635,11 @@ q = mCs△T = (500.00)(4.184)(46.3 - 20.0) =55. 0196kJ
 Qsystem = -Qsurroundings= -55. 0196 kJ
 $$\Delta\mathrm{H}=\frac qn\\\Delta\mathrm{H}=\frac{-55.0_{196}\mathrm{~kJ}}{\left(\frac{1.00\mathrm{~g}}{16.0424_6\mathrm{~g/mol}}\right)}=-882._{6497322}\mathrm{~kJ}$$
 
+\```
++++
 # Enthalpy of Reaction
 
- The enthalpy change in a chemical reaction is an extensive property
+The enthalpy change in a chemical reaction is an extensive property
 
 The more reactants you use, the larger the enthalpy change
 
@@ -645,27 +656,29 @@ $$2\mathrm{~A}\to\mathrm{AA}\quad\Delta H_{\mathrm{rxn}}=-51.0\mathrm{~J}$$
 What is the heat associated with the reaction of 6 moles of A?
 
 a.-51.0 J b.-306 J C. -153 J d.153 J
-
++++
 ## Stoichiometry Involving AH
+
+\```{exercise}
+:class: dropdown
 
 An LP gas tank in a home barbeque contains 13.2 kg of propane, $\mathrm{C}_3\mathrm{H}_8$ . Calculate the heat (in kJ) associated with the complete combustion of all of the propane in the tank.
 
 $$)\:+\:5\:\mathrm{O}_{2}(g)\:\longrightarrow\:3\:\mathrm{CO}_{2}(g)\:+\:4\:\mathrm{H}_{2}\mathrm{O}(g)$$
 C3Hg(g) △Hrxn =-2044 kJ
 
-## Solution
-
 $$\mathrm{C}_{3}\mathrm{H}_{8}\times\frac{1000\mathrm{~g}}{1\mathrm{~kg}}\times\frac{1\mathrm{~mol~C}_{3}\mathrm{H}_{8}}{44.09\mathrm{~g~C}_{3}\mathrm{H}_{8}}\times\frac{-2044\mathrm{~kJ}}{1\mathrm{~mol~C}_{3}\mathrm{H}}$$
 
 $$=-6.12\times10^5\:\mathrm{kJ}$$
-
+\```
++++
 # Measuringe $\Delta H_\mathrm{rxn}$ in a Coffee-Cup Calorimeter
 
 Magnesium metal reacts with hydrochloric acid according to the balanced equation:
 
 $$\mathrm{Mg}(s)\:+\:2\:\mathrm{HCl}(aq)\:\longrightarrow\:\mathrm{MgCl}_{2}(aq)\:+\:\mathrm{H}_{2}(g)$$
 
-In an experiment to determine the enthalpy change for this reaction, 0.158 g of $Mg$ metal is combined with enough HCl to make 100.0 mL of solution in a coffee-cup calorimeter. The HCl is sufficiently concentrated so that the $Mg$ completely reacts. The temperature of the solution rises from $25.6°C$ to 32.8 ॰C as a result of the reaction. Find $\Delta H_{\mathrm{rxn}}$ for the reaction as written. Use 1.00 g/mL as the density of the solution and $C_{\mathrm{s,~soln}}=4.18$ J/g$\cdot$°C as the specific heat capacity of the solution.
+In an experiment to determine the enthalpy change for this reaction, $0.158 g$ of $Mg$ metal is combined with enough $HCl$ to make $100.0 mL$ of solution in a coffee-cup calorimeter. The HCl is sufficiently concentrated so that the $Mg$ completely reacts. The temperature of the solution rises from $25.6°C$ to $32.8 C$ as a result of the reaction. Find $\Delta H_{\mathrm{rxn}}$ for the reaction as wr  aitten. Use 1.00 g/mL as the density of the solution and $C_{\mathrm{s,~soln}}=4.18$ J/g$\cdot$°C as the specific heat capacity of the solution.
 
 ### Solution
 
