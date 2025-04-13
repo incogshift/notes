@@ -1,4 +1,8 @@
 
+**EXAMPLE 9.1** Using the superposition theorem, determine current *I*1
+for the network in Fig. 9.2.
+
+![](image-17.png)
 
 
 EXAMPLE 9.11 Find the Norton equivalent circuit for the network in the shaded area in Fig. 9.61.

@@ -78,53 +78,66 @@ project:
                 - file: eng/md/comm1010/paragraphs.md
                 - file: eng/md/comm1010/sentences.md
                 - file: eng/md/comm1010/writing.md
-    - title: Fund Elec
-      children:
         - title: Notes Udst
           children:
             - title: Md
               children:
-                - title: M T02 2 Resistance
-                  children:
-                    - file: fundElec/notes-udst/md/MT02_2-Resistance/MT2_2-Resistance.md
-                - title: M T03 1   Ohm 'S  Law F2022
-                  children:
-                    - file: >-
-                        fundElec/notes-udst/md/MT03-1_ Ohm's Law_F2022/MT3-1: Ohm's
-                        Law_F2022.md
-                - title: M T04 Series  DC  Circuits F0222 1
-                  children:
-                    - file: >-
-                        fundElec/notes-udst/md/MT04-Series DC
-                        Circuits_F0222-1/MT4-Series DC Circuits_F0222-1.md
-                - title: M T05 Parallel   Circuits
-                  children:
-                    - file: fundElec/notes-udst/md/MT05-Parallel Circuits/doubts.md
-                    - file: >-
-                        fundElec/notes-udst/md/MT05-Parallel Circuits/MT5-Parallel
-                        Circuits.md
-                - title: M T06 Series  &  Parallel   Circuits
-                  children:
-                    - file: >-
-                        fundElec/notes-udst/md/MT06-Series & Parallel
-                        Circuits/AEEL1101-MT6-Series & Parallel Circuits.md
-                - title: M T07 Methods  Of  Analysis  And  Selected   Topics  Dc
-                  children:
-                    - file: >-
-                        fundElec/notes-udst/md/MT07-Methods of Analysis and Selected
-                        Topics dc/MT7-Methods of Analysis and Selected Topics dc.md
-                - title: Mt08
-                  children:
-                    - file: fundElec/notes-udst/md/mt08/8.md
-                    - file: fundElec/notes-udst/md/mt08/mt8e.md
-                    - file: fundElec/notes-udst/md/mt08/mt8.md
-                    - title: Tex
-                      children:
-                        - file: fundElec/notes-udst/md/mt08/tex/mt8text.md
-                        - file: fundElec/notes-udst/md/mt08/tex/mt8text.tex
-                    - title: Tex Udst
-                      children:
-                        - file: fundElec/notes-udst/md/mt08/tex-udst/main.tex
+    - title: Fund Elec
+      children:
+        - title: Mt2 Resistors
+          children:
+            - file: >-
+                fundElec/notes-udst/md/mt2_2-resistors-v1/MT2_2-Resistance.md
+        - title: Mt3 Ohm's Law
+          children:
+            - file: >-
+                fundElec/notes-udst/md/mt3_1-ohm's-law/MT3-1: Ohm's
+                Law_F2022.md
+        - title: Mt4 Series Dc Circuits
+          children:
+            - file: >-
+                fundElec/notes-udst/md/mt4-series-dc-circuits/MT4-Series DC
+                Circuits_F0222-1.md
+        - title: Mt5 Parallel Circuits
+          children:
+            - file: fundElec/notes-udst/md/mt5-parallel-circuits/doubts.md
+            - file: >-
+                fundElec/notes-udst/md/mt5-parallel-circuits/MT5-Parallel
+                Circuits.md
+        - title: Mt6 Series & Parallel Circuits
+          children:
+            - file: >-
+                fundElec/notes-udst/md/mt6-series-&-parallel-circuits/AEEL1101-MT6-Series
+                & Parallel Circuits.md
+        - title: Mt7 Methods Of Analysis And Selected Topics Dc
+          children:
+            - file: >-
+                fundElec/notes-udst/md/mt7-methods-of-analysis-and-selected-topics-dc/MT7-Methods
+                of Analysis and Selected Topics dc.md
+        - title: Mt8 Network Theorems
+          children:
+            - file: fundElec/notes-udst/md/mt8-network-theorems/8.md
+            - file: fundElec/notes-udst/md/mt8-network-theorems/mt8e.md
+            - file: fundElec/notes-udst/md/mt8-network-theorems/mt8.ipynb
+            - title: Tex
+              children:
+                - file: >-
+                    fundElec/notes-udst/md/mt8-network-theorems/tex/mt8text.md
+                - file: >-
+                    fundElec/notes-udst/md/mt8-network-theorems/tex/mt8text.tex
+            - title: Tex Udst
+              children:
+                - file: >-
+                    fundElec/notes-udst/md/mt8-network-theorems/tex-udst/main.tex
+        - title: Mt9 Capacitors Short
+          children:
+            - file: >-
+                fundElec/notes-udst/md/mt9-capacitors-short/MT9- Capacitors
+                -Short.ipynb
+            - title: Mt9
+              children:
+                - file: >-
+                    fundElec/notes-udst/md/mt9-capacitors-short/mt9/mt9.ipynb
     - title: Math
       children:
         - file: math/udst-notes/myst/u-preface.ipynb
