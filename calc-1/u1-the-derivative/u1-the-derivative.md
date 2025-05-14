@@ -1,16 +1,12 @@
-# MATH1030 Unit 1 The Derivative
-
-Limits. .3 Graphical Limits.. .3 ..5 Continuity. ...8 Algebraic Limits Limits by algebraic simplification: Common methods. ..10 ..11 Limits using tables.... Limit as x goes to 0 $x\to0$ ..15 Limit as x goes to infinity $x\to\infty$ ..17 The Derivative .23 ...23 Slope of a Straight Line.. The Tangent Line.. ..27 ...28 The Delta Process - Definition of the Derivative. Basic Derivative Rules. ...31 ..36 Product Rule $f(x)g(x)$ ..39 Quotient Rule $\frac{f(x)}{g(x)}$ Chain Rule $[f(g(x))]$ ...42 .46 Implicit Differentiation. Mixed Derivatives.... ...47 .48 Higher Derivatives.... Variables other than $x$ ..52
-
-
-
 # Limits
 
 # Graphical Limits
 
-A limit is the value the function, $f(x)$ , approaches as $x$ approaches a value.
+A limit is the value a function, $f(x)$ , approaches as $x$ approaches a value.
 
-![](./images/fVlSVhN1GGLu0aBk9a4PCclIN86GLxa2I.png)
+<p align="center">
+<img alt ="image" src="./images/fVlSVhN1GGLu0aBk9a4PCclIN86GLxa2I.png">
+</p>
 
 For this graph we can approach $x=3$ from the left or right, and see that $f(x)$ approaches 2 .
 
@@ -18,57 +14,55 @@ Limit as $x\to3^+$ of $f(x)$ is 2 [Right-hand limit]
 
 Limit as $x\to3^-$ of $f(x)$ is 2 [Left-hand limit]
 
-$$.f\left(x\right)=-\frac{1}{3}\left(x-3\right)^{2}+2$$
+$$f\left(x\right)=-\frac{1}{3}\left(x-3\right)^{2}+2$$
 
-| x | f(x) |
-|---------|--------------|
-| 2.9 | 1.997 |
-| 2.99 | 1.99997 |
-| 2.999 | 1.9999997 |
-| 2.9999 | 1.999999997 |
+| $x\to3^-$ | $f(x)$ | $x\to3^+$ | $f(x)$ |
+|---------|--------------|------|------------|
+| 2.9 | 1.997 | 3.1 | 1.997 |
+| 2.99 | 1.99997 | 3.01 | 1.99997 |
+| 2.999 | 1.9999997 | 3.001| 1.99999997 |
+| 2.9999 | 1.999999997 | 3.0001| 1.9999999997 |
 
-| x | f(x) |
-|------|------------|
-| 3.1 | 1.997 |
-| 3.01 | 1.99997 |
-| 3.001| 1.99999997 |
-| 3.0001| 1.9999999997 |
-
-From the tables we can see to approach a number means to get“infinitesimally close"
+From the tables, we can see to approach a number means to get “infinitesimally close"
 
 To approach a value also means to get close but NEVER equal the number.
 
-# Definition:Limit of a Function
+| Definition: Limit of a Function |
+|---|
+| We denote the limit as $\lim_{x\to a}f(x)=L$ ， $x\neq a$ and say "the limit of $f(x)$ as $x$ approaches $a$ is $L^{\prime\prime}$ |
 
-We denote the limit as $\lim_{x\to a}f(x)=L$ ， $x\neq a$ and say "the limit of $f(x)$ as $x$ approaches $a$ is $L^{\prime\prime}$
 
-## Condition for Existence of The Limit
+| Condition for Existence of The Limit |
+|---|
+| $\lim_{x \to a} f(x) = L \iff [~~\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L~~]$ <br> That is: If the left and right hand limits exist and are equal, then the limit exists. |
 
-$\lim_{x\to a}f(x)=L$ exists if and only if $\lim_{x\to a^-}f(x)=L$ and $\lim_{x\to a^+}f(x)=L$
 
-That is: Ifthe left and right hand limits exist and are equal, then the limit exists.
+<details>
+<summary>Exercise</summary>
 
-## Example:
+Determine left and right-hand limits as indicated for the following graphs. Determine if the limits exist.
 
- Determine left and right-hand limits as indicated for the following graphs. Determine if the limits exist.
-
-![](./images/fV7S1LinXu2H2ONHx4L3y00le3AsbkeQR.png)
+<p align="center">
+<img alt ="image" src="./images/fV7S1LinXu2H2ONHx4L3y00le3AsbkeQR.png">
+</p>
+</details>
 
 # Continuity
 
 Most graphs we will study in this course are smooth simple functions:
 
-![](./images/fnBguTvk07G0FSIUyftzUUQpvz6DfLp7x.png)
+<p align="center">
+<img alt ="image" src="./images/fnBguTvk07G0FSIUyftzUUQpvz6DfLp7x.png">
+</p>
 
 Think: you can draw the graph from $-\infty$ to 00 without lifting your pencil
 
-These functions are called continuous
+These functions are called **continuous**
 
-## Continuity of a Function
+| Continuity of a Function |
+|--------------------------|
+| A function $f(x)$ is continuous at $x = a$ if: <br> &nbsp;&nbsp;&nbsp; 1. $f(a)$ exists <br> &nbsp;&nbsp;&nbsp; 2. $\lim_{x \to a} f(x)$ exists <br> &nbsp;&nbsp;&nbsp; 3. $\lim_{x \to a} f(x) = f(a)$ |
 
-A function $f(x)$ is continuous at $x=a$ if:
-
-1. $f(a)$ exists 2. $\lim_{x\to a}f(x)$ exists 3. $\lim_{x\to a}f(x)=f(a)$
 
 Graphically continuity means that over a given interval there are no holes,breaks or “sharp peaks”in the graph over that interval.
 
@@ -76,7 +70,9 @@ If a function is not continuous we say it is discontinuous.
 
 The following graphs are Discontinuous:
 
-![](./images/fizQmRkMnh34mgwBQad3BXZD91sLr2mZ0.png)
+<p align="center">
+<img alt ="image" src="./images/fizQmRkMnh34mgwBQad3BXZD91sLr2mZ0.png">
+</p>
 They are caused by:
 
 $$y=\frac{1}{x^2}$$
@@ -89,15 +85,21 @@ Note: A removable discontinuity will not show on your graphing device!
 
 Sketch thefollowing graphs,state any types of discontinuity and anyvalues not in the domain.
 
-![](./images/fnOm1PyZNGRGewP5fGtvwwiRqkODhG4RU.png)
+<p align="center">
+<img alt ="image" src="./images/fnOm1PyZNGRGewP5fGtvwwiRqkODhG4RU.png">
+</p>
 
 ### Example:
 
 Determine left and right hand limits as indicated for the following graphs. Determine if the limits exist.
 
-![](./images/f0x7rXOGnDKZmng9Hwhx1bgrayZl7wxhK.png)
+<p align="center">
+<img alt ="image" src="./images/f0x7rXOGnDKZmng9Hwhx1bgrayZl7wxhK.png">
+</p>
 
-![](./images/fPmF4mRKA76RDp3oHyOG31GoT10wZ9mnS.png)
+<p align="center">
+<img alt ="image" src="./images/fPmF4mRKA76RDp3oHyOG31GoT10wZ9mnS.png">
+</p>
 
 $$\begin{gathered}
 \operatorname*{lim}_{x\to0^{-}}f\left(x\right)= \operatorname*{lim}_{x\to-1^{-}}f\left(x\right)= \\
@@ -105,11 +107,17 @@ $$\begin{gathered}
 \operatorname*{lim}_{x\to0}f\left(x\right)= \operatorname*{lim}_{x\to-1}f\left(x\right)= 
 \end{gathered}$$
 
-![](./images/fUdGPAkUxMDpzLu5OQ1mapAoQfl3HnDSd.png)
+<p align="center">
+<img alt ="image" src="./images/fUdGPAkUxMDpzLu5OQ1mapAoQfl3HnDSd.png">
+</p>
 
-![](./images/f6ShgsHMEQGpXAmQlsexrBsK91QEAmUgZ.png)
+<p align="center">
+<img alt ="image" src="./images/f6ShgsHMEQGpXAmQlsexrBsK91QEAmUgZ.png">
+</p>
 
-![](./images/fNcGdBNrIXZ2GdRENsyle2Q0dxELXYoGc.png)
+<p align="center">
+<img alt ="image" src="./images/fNcGdBNrIXZ2GdRENsyle2Q0dxELXYoGc.png">
+</p>
 
 ### Algebraic Limits
 
@@ -117,12 +125,18 @@ From the graphs section, we see that finding limits for certain functions is ver
 
 ### The graphs below are all continuous.
 
-![](./images/fCPyDFpieQInBZg9qakvOpqayBtlgsb6q.png)
+<p align="center">
+<img alt ="image" src="./images/fCPyDFpieQInBZg9qakvOpqayBtlgsb6q.png">
+</p>
 lim (x-1)²-1=
 
-![](./images/fc06k8ZPoRODZeCXP4MC6PwKZXwBNg5zD.png)
+<p align="center">
+<img alt ="image" src="./images/fc06k8ZPoRODZeCXP4MC6PwKZXwBNg5zD.png">
+</p>
 
-![](./images/fCDevZqo4Ca11Q4OdcUqwDXYGQe9bdIGB.png)
+<p align="center">
+<img alt ="image" src="./images/fCDevZqo4Ca11Q4OdcUqwDXYGQe9bdIGB.png">
+</p>
 
 For all values of a, $\lim_{x\to a}f(x)=f(a)$
 
@@ -130,15 +144,23 @@ For graphs that are discontinuous or have restricted domains
 
 ### As long as we choose the points that belong to the domain:
 
-![](./images/f7aCFT2CxlWdQ7b54NamOX4Yyd4pqRVha.png)
+<p align="center">
+<img alt ="image" src="./images/f7aCFT2CxlWdQ7b54NamOX4Yyd4pqRVha.png">
+</p>
 
-![](./images/fg9OqdfbTbpY0GFSmmEGRkAY5vxyoq2BG.png)
+<p align="center">
+<img alt ="image" src="./images/fg9OqdfbTbpY0GFSmmEGRkAY5vxyoq2BG.png">
+</p>
 
 $$\lim_{x\to1}\frac{1}{x+1}=$$
 
-![](./images/fkTLOYierby9X0aOvOzh7X15stfwtH0g0.png)
+<p align="center">
+<img alt ="image" src="./images/fkTLOYierby9X0aOvOzh7X15stfwtH0g0.png">
+</p>
 
-![](./images/fEsVsxTmeh7QBLcRvwkOCTd2w6bv8FsDV.png)
+<p align="center">
+<img alt ="image" src="./images/fEsVsxTmeh7QBLcRvwkOCTd2w6bv8FsDV.png">
+</p>
 
 ### Direct Substitution Rule
 
@@ -196,7 +218,9 @@ Remember:
 
 ·If the left and righthand limits exist and are equal,then thelimit exists. If the left and right hand limits do not exist or are not equal, then the limit. does not exist.
 
-![](./images/fCybgPNPYUl1yMBgqtDdkGWscAe6BmT2y.png)
+<p align="center">
+<img alt ="image" src="./images/fCybgPNPYUl1yMBgqtDdkGWscAe6BmT2y.png">
+</p>
 
 The $\lim_{x\to0}\frac1{x^2}$ can not e factored, owever raphiclly we can assess that,
 $$\lim_{x\to0^-}\frac{1}{x^2}=$$
@@ -286,7 +310,9 @@ $\lim_{x\to0^-}f(x)=$
 
 $\operatorname*{lim}_{x\to0^{+}}f(x)=$
 
-![](./images/fA8OP159G1owmT8PF9Mprx5UXmabysMkN.png)
+<p align="center">
+<img alt ="image" src="./images/fA8OP159G1owmT8PF9Mprx5UXmabysMkN.png">
+</p>
 
 Consider the case where we want $x\to0$ and $x$ only appears in the denominator of a rational expression.In such a casewe would basically have some number divided by a “really small" positive/negative number.This will give a“really big positive/negative result. Since 'really big' occurs often in limit calculations we give it
 
@@ -294,7 +320,9 @@ the special symbol 00 , called infinity. Don't forget to check the left and righ
 
  Example valuate (a) $\lim_{x\to0}\frac{1}{x}$ (b) $\lim_{x\to0}\frac{1}{x^2}$
 
-![](./images/ffK0kpdkiVHt671V0FLqSunNkNXcmiXAK.png)
+<p align="center">
+<img alt ="image" src="./images/ffK0kpdkiVHt671V0FLqSunNkNXcmiXAK.png">
+</p>
 
 $-0.1\quad -10\quad 100$ $-0.01\quad -100\quad 10000$ $-0.001\quad -1000\quad 1000000$ $-0.0001\quad -10000\quad 100000000$ $0.0001\quad +10000\quad 1000000000$ $0.001\quad +1000\quad 1000000$ $0.01\quad +100\quad 10000$ $0.1\quad +10\quad 100$
 
@@ -415,7 +443,9 @@ $$f(x)=\begin{cases}4x^2-16x+18,x<2\\2\bigl(x+1\bigr),\quad x>2\end{cases}$$
 
 5. Use the graph of $f(x)$ to find the limits.
 
-![](./images/fMXpzlx7nHiQnGDqF7EuuWp3GcPVrSgaL.png)
+<p align="center">
+<img alt ="image" src="./images/fMXpzlx7nHiQnGDqF7EuuWp3GcPVrSgaL.png">
+</p>
 
 b) limf(x)=
 
@@ -433,7 +463,9 @@ We know that the slope of a line is calculated between two points on the line
 
 We can find the slope graphically using rise over run (always go left to right)
 
-![](./images/fyDyk5F0wvQQx4eyWZKXDwwP4LNNdAe9Z.png)
+<p align="center">
+<img alt ="image" src="./images/fyDyk5F0wvQQx4eyWZKXDwwP4LNNdAe9Z.png">
+</p>
 
 Or we calculate it using two points:
 
@@ -443,7 +475,9 @@ The slope between two points on a curved graph is called the Secant Line.
 
 We can find the slope of this line:.
 
-![](./images/fkKgSSHpRabbD5hFdx6lvVYSzkyElGSGP.png)
+<p align="center">
+<img alt ="image" src="./images/fkKgSSHpRabbD5hFdx6lvVYSzkyElGSGP.png">
+</p>
 
 And, we can find the equation of the Secant line: Point-Slope Form
 $$y-y_1=\dot{m(x-x_1)}$$
@@ -460,7 +494,9 @@ $$AverageSlope=\frac{\Delta y}{\Delta x}$$
 
 function $f(x)=x^{2}-6x+8$
 
-![](./images/fPRSRaAuQlnQTlZhu2N740bnt7lIdVVuY.png)
+<p align="center">
+<img alt ="image" src="./images/fPRSRaAuQlnQTlZhu2N740bnt7lIdVVuY.png">
+</p>
 
 Find the equation of thesecant line:
 
@@ -472,11 +508,15 @@ Find the equation of this secant line
 
 1.Calculate the average slope of the graphbelow between $x=2$ and $x=4$
 
-![](./images/fmqXuHcoW30SDHu1xG3vNmHKPOEUP62n4.png)
+<p align="center">
+<img alt ="image" src="./images/fmqXuHcoW30SDHu1xG3vNmHKPOEUP62n4.png">
+</p>
 
 2.For the two lines in the graph: a.Calculate the slope
 
-![](./images/fMHchH82yfCErfK0SFmUmBK5aN7HcAN7t.png)
+<p align="center">
+<img alt ="image" src="./images/fMHchH82yfCErfK0SFmUmBK5aN7HcAN7t.png">
+</p>
 
 b.Find the equation of each line.
 
@@ -486,7 +526,9 @@ Graphically the Tangent Line:
 
 a)istheslope of the curve atonepoint b) touches the curve at only that point
 
-![](./images/fIMk3zHGo1amfgMP66X8IVG1udxYpfDGZ.png)
+<p align="center">
+<img alt ="image" src="./images/fIMk3zHGo1amfgMP66X8IVG1udxYpfDGZ.png">
+</p>
 
 Algebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.
 
@@ -494,7 +536,9 @@ Algebraically the Tangent Line is much more dificult to define and will be the f
 
 We need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:
 
-![](./images/frsUGMzEG4nI1e2FtxHvzZMLEoS8lqBOD.png)
+<p align="center">
+<img alt ="image" src="./images/frsUGMzEG4nI1e2FtxHvzZMLEoS8lqBOD.png">
+</p>
 
 But thiswould be dividing by zero!
 
@@ -509,7 +553,9 @@ $$\mathrm{m}_{\mathrm{tangent}}=\lim_{\Delta x\to0}\frac{f\left(x+\Delta x\right
 
 For $f(x)=x^{2}$
 
-![](./images/fN2XgMepBcspKT8R5sISMPS3BRPva3vZR.png)
+<p align="center">
+<img alt ="image" src="./images/fN2XgMepBcspKT8R5sISMPS3BRPva3vZR.png">
+</p>
 
 This is a function that gives us the slope of the tangent line at any $x$
 $$x=0$$
@@ -553,7 +599,9 @@ $$
 \end{align*}
 $$
 
-![](./images/fWOaqgY0CDGG1KIHk8es2YV9ya3tehHhO.png)
+<p align="center">
+<img alt ="image" src="./images/fWOaqgY0CDGG1KIHk8es2YV9ya3tehHhO.png">
+</p>
 
 What is the slope at $x=1$ ？
 
@@ -587,7 +635,9 @@ $f'(x)=0$
 Algebraically,
 $$f'(x)=\lim_{h\to0}\frac{f\left(x+h\right)-f\left(x\right)}{h}$$
 
-![](./images/fZoCRsLqBLevtxPkIv9A4F4FtuNswi4bW.png)
+<p align="center">
+<img alt ="image" src="./images/fZoCRsLqBLevtxPkIv9A4F4FtuNswi4bW.png">
+</p>
 
 Example: Find the derivative of the following
 
