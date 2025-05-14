@@ -30,12 +30,12 @@ To approach a value also means to get close but NEVER equal the number.
 | Definition: Limit of a Function |
 |---|
 | We denote the limit as $\lim_{x\to a}f(x)=L$ ， $x\neq a$ and say "the limit of $f(x)$ as $x$ approaches $a$ is $L^{\prime\prime}$ |
-| |
+
 
 | Condition for Existence of The Limit |
 |---|
-| $\lim_{x \to a} f(x) = L \iff [~\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L~]$ <br> That is: If the left and right hand limits exist and are equal, then the limit exists. |
-| |
+| $\lim_{x \to a} f(x) = L \iff [\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L]$ <br> That is: If the left and right hand limits exist and are equal, then the limit exists. |
+
 
 <details>
 <summary>Exercise</summary>
@@ -62,149 +62,188 @@ These functions are called **continuous**
 | Continuity of a Function |
 |--------------------------|
 | A function $f(x)$ is continuous at $x = a$ if: <br> &nbsp;&nbsp;&nbsp; 1. $f(a)$ exists <br> &nbsp;&nbsp;&nbsp; 2. $\lim_{x \to a} f(x)$ exists <br> &nbsp;&nbsp;&nbsp; 3. $\lim_{x \to a} f(x) = f(a)$ |
-||
+
 
 Graphically continuity means that over a given interval there are no holes,breaks or “sharp peaks”in the graph over that interval.
 
-If a function is not continuous we say it is discontinuous.
+If a function is not continuous we say it is **discontinuous**.
 
-The following graphs are Discontinuous:
+The following graphs are discontinuous:
 
 <p align="center">
 <img alt ="image" src="./images/fizQmRkMnh34mgwBQad3BXZD91sLr2mZ0.png">
 </p>
-They are caused by:
+They are respectively caused by:
 
-$$y=\frac{1}{x^2}$$
+$$
+\begin{align*}
+    y &= \frac{1}{x^2}\\
+    f(x) &=
+        \begin{cases}
+            (x+1)^2+4,&x\leq-1\\2x+4,&x>-1
+        \end{cases}\\
+    y &= \frac{x(x-3)}{2(x-3)} \\
+\end{align*}
+$$
 
-$$f\left(x\right)=\begin{cases}\left(x+1\right)^2+4,&x\leq-1\\2x+4,&x>-1\end{cases}\quad y=\frac{x(x-3)}{2(x-3)}$$
+> [!NOTE] 
+> A removable discontinuity will not show on your graphing device!
 
-Note: A removable discontinuity will not show on your graphing device!
 
-## Example:
+<details>
+    <summary>Exercise</summary>
 
-Sketch thefollowing graphs,state any types of discontinuity and anyvalues not in the domain.
+    Sketch thefollowing graphs,state any types of discontinuity and anyvalues not in the domain.
 
-<p align="center">
-<img alt ="image" src="./images/fnOm1PyZNGRGewP5fGtvwwiRqkODhG4RU.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/fnOm1PyZNGRGewP5fGtvwwiRqkODhG4RU.png">
+    </p>
 
-### Example:
+    ### Example:
 
-Determine left and right hand limits as indicated for the following graphs. Determine if the limits exist.
+    Determine left and right hand limits as indicated for the following graphs. Determine if the limits exist.
 
-<p align="center">
-<img alt ="image" src="./images/f0x7rXOGnDKZmng9Hwhx1bgrayZl7wxhK.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/f0x7rXOGnDKZmng9Hwhx1bgrayZl7wxhK.png">
+    </p>
 
-<p align="center">
-<img alt ="image" src="./images/fPmF4mRKA76RDp3oHyOG31GoT10wZ9mnS.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/fPmF4mRKA76RDp3oHyOG31GoT10wZ9mnS.png">
+    </p>
 
-$$\begin{gathered}
-\operatorname*{lim}_{x\to0^{-}}f\left(x\right)= \operatorname*{lim}_{x\to-1^{-}}f\left(x\right)= \\
-\operatorname*{lim}_{x\to0^{+}}f\left(x\right)= \lim_{x\to-1^{+}}f\left(x\right)= \\
-\operatorname*{lim}_{x\to0}f\left(x\right)= \operatorname*{lim}_{x\to-1}f\left(x\right)= 
-\end{gathered}$$
+    $$\begin{gathered}
+    \operatorname*{lim}_{x\to0^{-}}f\left(x\right)= \operatorname*{lim}_{x\to-1^{-}}f\left(x\right)= \\
+    \operatorname*{lim}_{x\to0^{+}}f\left(x\right)= \lim_{x\to-1^{+}}f\left(x\right)= \\
+    \operatorname*{lim}_{x\to0}f\left(x\right)= \operatorname*{lim}_{x\to-1}f\left(x\right)= 
+    \end{gathered}$$
 
-<p align="center">
-<img alt ="image" src="./images/fUdGPAkUxMDpzLu5OQ1mapAoQfl3HnDSd.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/fUdGPAkUxMDpzLu5OQ1mapAoQfl3HnDSd.png">
+    </p>
 
-<p align="center">
-<img alt ="image" src="./images/f6ShgsHMEQGpXAmQlsexrBsK91QEAmUgZ.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/f6ShgsHMEQGpXAmQlsexrBsK91QEAmUgZ.png">
+    </p>
 
-<p align="center">
-<img alt ="image" src="./images/fNcGdBNrIXZ2GdRENsyle2Q0dxELXYoGc.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/fNcGdBNrIXZ2GdRENsyle2Q0dxELXYoGc.png">
+    </p>
+</details>
 
 ### Algebraic Limits
 
 From the graphs section, we see that finding limits for certain functions is very easy.
 
-### The graphs below are all continuous.
+<details>
+    <summary>Examples</summary>
+    The graphs below are all continuous.
 
-<p align="center">
-<img alt ="image" src="./images/fCPyDFpieQInBZg9qakvOpqayBtlgsb6q.png">
-</p>
-lim (x-1)²-1=
+    <p align="center">
+    <img alt ="image" src="./images/fCPyDFpieQInBZg9qakvOpqayBtlgsb6q.png">
+    </p>
 
-<p align="center">
-<img alt ="image" src="./images/fc06k8ZPoRODZeCXP4MC6PwKZXwBNg5zD.png">
-</p>
+    $\lim (x-1)^2-1=$
 
-<p align="center">
-<img alt ="image" src="./images/fCDevZqo4Ca11Q4OdcUqwDXYGQe9bdIGB.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/fc06k8ZPoRODZeCXP4MC6PwKZXwBNg5zD.png">
+    </p>
+
+    $\lim_{x\to-1}x^3-x=$
+
+    <p align="center">
+    <img alt ="image" src="./images/fCDevZqo4Ca11Q4OdcUqwDXYGQe9bdIGB.png">
+    </p>
+</details>
 
 For all values of a, $\lim_{x\to a}f(x)=f(a)$
 
-For graphs that are discontinuous or have restricted domains
+For graphs that are discontinuous or have restricted domains, as long as we choose the points that belong to the domain they are continuous but otherwise discontinuous.
 
-### As long as we choose the points that belong to the domain:
+<details>
+    <summary>Examples</summary>
+    <p align="center">
+    <img alt ="image" src="./images/f7aCFT2CxlWdQ7b54NamOX4Yyd4pqRVha.png">
+    </p>
 
-<p align="center">
-<img alt ="image" src="./images/f7aCFT2CxlWdQ7b54NamOX4Yyd4pqRVha.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/fg9OqdfbTbpY0GFSmmEGRkAY5vxyoq2BG.png">
+    </p>
 
-<p align="center">
-<img alt ="image" src="./images/fg9OqdfbTbpY0GFSmmEGRkAY5vxyoq2BG.png">
-</p>
+    $$\lim_{x\to1}\frac{1}{x+1}=$$
 
-$$\lim_{x\to1}\frac{1}{x+1}=$$
+    <p align="center">
+    <img alt ="image" src="./images/fkTLOYierby9X0aOvOzh7X15stfwtH0g0.png">
+    </p>
 
-<p align="center">
-<img alt ="image" src="./images/fkTLOYierby9X0aOvOzh7X15stfwtH0g0.png">
-</p>
+    <p align="center">
+    <img alt ="image" src="./images/fEsVsxTmeh7QBLcRvwkOCTd2w6bv8FsDV.png">
+    </p>
+</details>
 
-<p align="center">
-<img alt ="image" src="./images/fEsVsxTmeh7QBLcRvwkOCTd2w6bv8FsDV.png">
-</p>
+| Direct Substitution Rule |
+|---|
+|For the limit $\lim_{x\to a}f(x)$: <br> If $a$ is in the domain of $f(x)$, then we can plug $a$ into it. so $\lim_{x\to a}f(x)=f(a)$ |
 
-### Direct Substitution Rule
+<details>
+    <summary>Exercises</summary>
+    Determine the following limits using Direct Substitution if possible
 
-For the limit $\lim_{x\to a}f(x)$
+    a) $\lim_{x\to4}\left(x^2-7\right)$
+    $$\text{b)}\lim_{x\to2}\bigl(2x^2-3x+2\bigr)$$
 
-if a is in the domain of $f(x)$ then we can just substitute the value. so $\lim_{x\to a}f(x)=f(a)$
+    C) $\lim_{x\to0}\Big(e^x-x^2\Big)$
 
-### Example:
+    $$\text{d)}\lim_{x\to5}\sqrt{x^2-9}$$
 
-Determine the following limits using Direct Substitution if possible
+    ### Example 2:
 
-a) $\lim_{x\to4}\left(x^2-7\right)$
-$$\text{b)}\lim_{x\to2}\bigl(2x^2-3x+2\bigr)$$
+    Determine the following limits using Direct Substitution if possible
 
-C) $\lim_{x\to0}\Big(e^x-x^2\Big)$
+    a) $\lim_{x\to0}\frac{x(x-2)}{(x-2)}$
+    $$\text{b)}\lim_{x\to2}\frac{x^2-4}{x+2}\quad\text{c)}\lim_{x\to2}\frac{x^2-4}{x-2}$$
 
-$$\text{d)}\lim_{x\to5}\sqrt{x^2-9}$$
+    $$\text{d)}\lim\limits_{x\to-1}\frac{1}{x}\quad\text{e)}\lim\limits_{x\to8}\sqrt{x-4}\quad\text{f)}\lim\limits_{x\to10}\frac{1}{\sqrt{x-9}}$$
+</details>
 
-### Example 2:
-
-Determine the following limits using Direct Substitution if possible
-
-a) $\lim_{x\to0}\frac{x(x-2)}{(x-2)}$
-$$\text{b)}\lim_{x\to2}\frac{x^2-4}{x+2}\quad\text{c)}\lim_{x\to2}\frac{x^2-4}{x-2}$$
-
-$$\text{d)}\lim\limits_{x\to-1}\frac{1}{x}\quad\text{e)}\lim\limits_{x\to8}\sqrt{x-4}\quad\text{f)}\lim\limits_{x\to10}\frac{1}{\sqrt{x-9}}$$
-
-# When a is NoT in the domain for the limit $\lim_{x\to a}f(x)$ : We can try some ALGEBRA.
+When a is NOT in the domain for the limit $\lim_{x\to a}f(x)$ : We can try some ALGEBRA.
 
 Some common methods of algebraic simplification include.
 
-1.Factor and cancel 2. Combining fractions 3.Rationalization
+1. Factor and cancel
+2. Combining fractions
+3. Rationalization
 
 Limits by algebraic simplification: Common methods
 
-## Factor and cancel
+### Factor and cancel
 
 $$\begin{aligned}\lim_{x\to-4}\frac{x^2+3x-4}{x+4}\end{aligned}$$
 
-# Combining fractions
+#### Splitting the midterm
+
+For $ax^2+bx+c$
+
+We take factors of $ac$ such that their:
+- Sum = $b$
+- Product = $ac$
+
+Steps:
+
+> &#9432; **Note** <br>
+> The factors here refer to the constants in $(x+a)(x+b)$, not the zeroes ($x=-a,~-b$) themselves.
+
+| Cases | Sign of factors |
+|---|---|
+| $b~\&~ac \to +ve$ | Both factors $+ve$ |
+| $b\to+ve,~ac\to-ve$ | Bigger factor $+ve$, smaller factor $-ve$ |
+| $b~\&~ac \to -ve$ | Smaller factor $+ve$, bigger factor $-ve$ |
+| $b\to-ve,~ac\to+ve$ | Both factors $-ve$ |
+
+### Combining fractions
 
 $$\lim\limits_{x\to2}\Bigg(\frac{1}{4x-8}-\frac{1}{x^{2}-4}\Bigg)$$
 
-## Rationalization (Conjugate)
+### Rationalization (Conjugate)
 
 $$\lim_{x\to0}\frac{\sqrt{1+x}-1}{x}$$
 
