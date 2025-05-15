@@ -234,10 +234,10 @@ Steps:
 
 | Cases | Sign of factors |
 |---|---|
-| $b~\&~ac \to +ve$ | Both factors $+ve$ |
-| $b\to+ve,~ac\to-ve$ | Bigger factor $+ve$, smaller factor $-ve$ |
-| $b~\&~ac \to -ve$ | Smaller factor $+ve$, bigger factor $-ve$ |
-| $b\to-ve,~ac\to+ve$ | Both factors $-ve$ |
+| $b$ & $ac \to +ve$ | Both factors $+ve$ |
+| $b\to+ve$, $ac\to-ve$ | Bigger factor $+ve$, smaller factor $-ve$ |
+| $b$ & $ac \to -ve$ | Smaller factor $+ve$, bigger factor $-ve$ |
+| $b\to-ve$, $ac\to+ve$ | Both factors $-ve$ |
 
 ### Combining fractions
 
