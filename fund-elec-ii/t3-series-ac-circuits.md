@@ -49,6 +49,30 @@ $$
 \end{align*}
 $$
 
+### Condition For Resonance
+
+$$
+\boxed{\begin{align}
+    X_L &= X_C \\
+    f &= \frac{1}{2\pi\sqrt{LC}}\\
+\end{align}}
+$$
+
+Derivation for $f$
+
+> **&#9432; Note** <br>
+> This is very simple, use when you forget the formula $(2)$, all you need to remember is $(1)$.
+
+$$
+\begin{align*}
+    X_L &= X_C \\
+    \omega L &= \frac{1}{\omega C} \\
+    2\pi fL &= \frac{1}{2\pi fC} \\
+    f^2 &= \frac{1}{(2\pi)^2LC} \\
+    f& = \frac{1}{2\pi\sqrt{LC}} \\
+\end{align*}
+$$
+
 ### Applying the general approach to a series RLC circuit
 
 - Apply the phasor notation
