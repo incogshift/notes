@@ -19,7 +19,7 @@ For a circuit with an inductor and an AC source:
 
 For a circuit with a capacitor and an AC source:
 
-- $i = I_m \sin (\omega t + 90^\circ) = I\angle 90^\circ$
+- $i = I_m \sin (\omega t + 90^\circ) = I\angle 90^\circ$, when $v = V \angle 0^\circ$
 - $v = V\angle -90^\circ$, when $i = I \angle 0^\circ$
 - $Z = X_C \angle -90^\circ$
 ---
@@ -28,40 +28,96 @@ For a circuit with a capacitor and an AC source:
 
 In an $RLC$ circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.
 
-### Ohm's Law and other formulas
+### Impedence Diagram
 
-In all places, angles are required in equations except in avg power formula ($P=V_mI_m\cos\theta$).
+![image](image-1.png)
 
+> **&#9432; Note** <br>
+> $Z_C \neq X_C\angle90^\circ$ <br>
+> $Z_C = X_C\angle-90^\circ$
+
+For any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.
+
+| Network | $\theta_{Z_T}$ |
+|---|---|
+| Inductive  | $+ve$ |
+| Capacitive | $-ve$  |
+
+### Series ac Circuits (Configurations)
+
+They behave like resistors in series.
+$$Z_T = \sum Z_n$$
+
+Calculating in complex mode (recommended to use):
+
+> **&#9432; Note** <br>
+> In all places, angles are required in equations except in avg power formula ($P=VI\cos\theta$). <br>
+> Each attribute has its own angle except avg power
+
+- Polar notation
 $$
 \begin{align*}
-    V_R &= I_T \angle\theta_1 \cdot R \angle \theta_2 \\
-    V_L &= I_T \angle\theta_1 \cdot X_L \angle \theta_2\\
-    V_C &= I_T \angle\theta_1 \cdot X_C \angle \theta_2 \\
+    E &= I \cdot Z_T \\
+    I &= \frac{E}{Z_T} \\
+    V_{Z_x} &= I_T \cdot Z_x \\
+    I_{Z_x} &= I \\
 \end{align*}
 $$
 
+- Rectangular notation
+
 $$
 \begin{align*}
-    Z = R+j(X_L-X_C) \\
-    Z = \sqrt{R^2+X} \\
-    X = X_L-X_C\\
-    \theta = \tan^{-1} \frac{X}{R} \\
+    Z &= R+j(X_L-X_C) \\
 \end{align*}
 $$
 
-### Condition For Resonance
+Calculating in non-complex mode (not recommended to use):
 
 $$
-\boxed{\begin{align}
-    X_L &= X_C \\
-    f &= \frac{1}{2\pi\sqrt{LC}}\\
-\end{align}}
+\begin{align*}
+    Z &= \sqrt{R^2+X} \\
+    X &= X_L-X_C\\
+    \theta &= \tan^{-1} \frac{X}{R} \\
+\end{align*}
 $$
+
+Calculations that are complex independant:
+
+$P=EI\cos\theta$
+
+#### Voltage Divider Rule
+
+$V_x = \dfrac{E}{Z_T}Z_x$
+
+<details>
+
+> **&#9432; Note** <br>
+> Basically, this is Ohm's law. The only change is that $I$ has been expanded
+
+$V_x = I \cdot Z_x = \dfrac{E}{Z_T}Z_x$
+
+</details>
+
+#### Kirchoff's Voltage Law
+
+The sum of the input voltages and voltage drops in a closed loop is zero 
+
+### Resonance
+
+Condition for resonance:
+
+$$X_L = X_C$$
+
+Frequency:
+
+$$f = \frac{1}{2\pi\sqrt{LC}}$$
 
 Derivation for $f$
 
+
 > **&#9432; Note** <br>
-> This is very simple, use when you forget the formula $(2)$, all you need to remember is $(1)$.
+> This is very simple, use when you forget the formula for $f$, all you need to remember is the condition for resonace.
 
 $$
 \begin{align*}
@@ -92,7 +148,3 @@ $$
     - $P=V_mI_m\cos\theta$
 - Calculate the power factor
     - $F_p = \cos \theta_T = \dfrac{R}{Z_T}$
-
-#### Voltage Divider Rule
-
-$V_x = \dfrac{E}{Z_T}Z_x$
