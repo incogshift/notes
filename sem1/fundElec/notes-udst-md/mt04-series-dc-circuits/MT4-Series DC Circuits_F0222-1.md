@@ -172,8 +172,6 @@ $$\begin{gathered}
 \text{F} \\
 \bullet\:E-(+V_{R1})-(+V_{R2})=0 \\
 \cdot\:E-V_{R1}-V_{R2}=0 \\
-\text{一个人} \\
-\text{.} 
 \end{gathered}$$
 
 Rise Drop Drop
