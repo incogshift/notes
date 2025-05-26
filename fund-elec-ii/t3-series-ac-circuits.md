@@ -30,7 +30,7 @@ In an $RLC$ circuit, depending on the value of the resistance and reactances, th
 
 ### Impedence Diagram
 
-![image](image-1.png)
+![image](images/image-1.png)
 
 > **&#9432; Note** <br>
 > $Z_C \neq X_C\angle90^\circ$ <br>
@@ -133,7 +133,7 @@ $$
 
 - Apply the phasor notation
 
-![image](image-2.png)
+![image](images/image-2.png)
 
 - Calculate the total impedance of the circuit
     - $Z_T = Z_R + Z_L + Z_C$

@@ -30,7 +30,7 @@ $$
 
 ### Admittance Diagram
 
-![image](image-3.png)
+![image](images/image-3.png)
 
 ## Parallel AC Circuits
 
