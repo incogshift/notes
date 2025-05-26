@@ -1,0 +1,67 @@
+**Vector**: A quantity that has direction
+
+## Admittance ($Y$) and Susceptance ($B$)
+
+In parallel:
+- Susceptances are added together.
+- Impedances are treated in the same manner as resistors
+
+$$
+\begin{align*}
+    Y &= \frac{1}{Z} \\
+    B &= \frac{1}{X} \\
+\end{align*}
+$$
+
+| Admittance, $Y$ | Susceptance, $B$ |
+|---|---|
+|$Y$ is a vector | $B$ is a magnitude.|
+| Has an angle like $Z$ does | Has no angle like $R$ or $X$ does not |
+| Defined from impedance or used for all elements | Defined from reactance or used only for reactive elements |
+
+| Susceptance, $B$ | Conductance, $G$ |
+|---|---|
+| Reciprocal of reactance | Reciprocal of resistance |
+| Only for reactive elements | Only for resistive elements |
+
+| Reactive elements | Resistive elements |
+|---|---|
+| $Y= B \angle\theta$ | $Y=G\angle\theta$
+
+### Admittance Diagram
+
+![image](image-3.png)
+
+## Parallel AC Circuits
+
+### General approach to solving a parallel circuit
+
+1. Apply the phasor notation to the network.
+
+    I think this means change the time domain representations of voltage and current to phasor notation
+2. Find:
+    - $Z_T$ or $Y_T$, then $Z_T=\dfrac{1}{Y_T}$
+3. Draw: Admittance diagram
+4. Find:
+    - $I_S$
+    - $I_x$, use CDL:
+        $$
+        \begin{align*}
+            &I_x = I_T\frac{Z_T}{Z_x} \\
+            &\text{or for 2 branches:} \\
+            &I_\text{branch of interest} = I_T\frac{Z_\text{opposite branch}}{Z_\text{branch of interest}+Z_\text{opposite branch}} \\
+        \end{align*}
+        $$
+5. Apply KCL at node of interest:
+    
+    Connecting source current branch and the branches where current splits
+    
+    $I_{\text{in}}\angle\theta_{I_{\text{in}}}=I_{\text{out}}\angle\theta_{I_{\text{out}}}$
+    
+    <details>
+        Remember: this is in the same way as in DC circuits except the only difference is that current in AC is a vector.
+    </details>
+6. Draw: Phasor diagram
+7. Find:
+    - $P~(P_\text{avg})$
+    - $F_p$, Power factor. 
