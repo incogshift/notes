@@ -132,9 +132,13 @@ $$
 ### Applying the general approach to a series RLC circuit
 
 - Apply the phasor notation
+
+![image](image-2.png)
+
 - Calculate the total impedance of the circuit
     - $Z_T = Z_R + Z_L + Z_C$
 - Draw the impedance diagram
+
 - Determine the total current
     - $I = \dfrac{E}{Z_T}$
 - Find the voltage across each element
