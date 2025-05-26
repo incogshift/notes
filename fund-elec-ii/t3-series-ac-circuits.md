@@ -45,7 +45,7 @@ For any configuration, the angle associated with the total impedance is the angl
 
 ### Series ac Circuits (Configurations)
 
-They behave like resistors in series.
+Impedances behave like resistors in series.
 $$Z_T = \sum Z_n$$
 
 Calculating in complex mode (recommended to use):
@@ -137,7 +137,7 @@ $$
 
 - Calculate the total impedance of the circuit
     - $Z_T = Z_R + Z_L + Z_C$
-- Draw the impedance diagram
+- Draw: Impedance diagram
 
 - Determine the total current
     - $I = \dfrac{E}{Z_T}$
@@ -152,3 +152,11 @@ $$
     - $P=V_mI_m\cos\theta$
 - Calculate the power factor
     - $F_p = \cos \theta_T = \dfrac{R}{Z_T}$
+
+## Frequency Response for Series ac Circuits
+
+In a series R-L-C circuit:
+- At very low frequencies, the total impedance will be determined primarily by the capacitor (C).
+- At very high frequencies, the total impedance will be determined primarily by the inductor (L).
+
+![image](images/image-4.png)
