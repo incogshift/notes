@@ -44,16 +44,13 @@ $$
 3. Draw: Admittance diagram
 4. Find:
     - $I_S$
-    - $I_x$, use CDL:
-        $$
-        \begin{align*}
-            &I_x = I_T\frac{Z_T}{Z_x} \\
-            &\text{or for 2 branches:} \\
-            &I_\text{branch of interest} = I_T\frac{Z_\text{opposite branch}}{Z_\text{branch of interest}+Z_\text{opposite branch}} \\
-        \end{align*}
-        $$
+    - $I_x$, use CDR:
+        - for Multiple branches
+            $$I_x = I_T\frac{Z_T}{Z_x}$$
+        - or for 2 branches:
+        $$I_\text{branch of interest} = I_T\frac{Z_\text{opposite branch}}{Z_\text{branch of interest}+Z_\text{opposite branch}}$$
 5. Apply KCL at node of interest:
-    
+,.   
     Connecting source current branch and the branches where current splits
     
     $I_{\text{in}}\angle\theta_{I_{\text{in}}}=I_{\text{out}}\angle\theta_{I_{\text{out}}}$
