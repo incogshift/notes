@@ -60,3 +60,8 @@ When $v = V\angle 60^\circ$ and $i = I \angle 30^\circ$:
  
 - The current is lagging the voltage by $30^\circ$
 
+## Average
+
+From graph:
+
+Area of a cycle (Addition of positive area and negative area) divided by the time period
