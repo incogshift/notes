@@ -1,0 +1,1 @@
+1. What does real power mean? How is it different from $Q,~P$ and $S$?
