@@ -3,7 +3,7 @@ All circuits have an inductance. Why?
 
 ## General Equation
 
-$W = Pt$
+$W = P~t$
 
 $p = V_mI_m\sin\omega t \sin (\omega t +\theta)$
 
@@ -79,7 +79,7 @@ If the load is:
 
 ## Apparent power
 
-$S=VI$
+$S = VI = I^2Z = \dfrac{V^2}{Z}$
 
 Unit: $\text{VA}$, Volt Ampere
 
@@ -89,9 +89,106 @@ $F_p = \dfrac{P}{S}$
 
 ## The Reactive Power (Q)
 
-$Q_L = VI \sin \theta$
+$Q = VI \sin \theta$
 
 Unit: $\text{VAR}$, Volt Ampere Reactive
+
+<details>
+<summary>
+Average Value of Energy stored in a Reactive Element over a Positive Sinusoidal Half-Cycle
+
+|||
+|-|-|
+|![](images/inductor-power-curve.png)|![](images/capacitor-power-curve.png)|
+
+</summary>
+
+Recall that the **average value of the positive portion of a sinusoid** is:
+
+$$
+\frac{2A}{\pi}
+$$
+
+Also, in this case, the time interval considered is:
+
+$$
+t = \frac{T_2}{2}
+$$
+
+ Energy stored in an inductor or capacitor:
+
+$$
+\begin{aligned}
+    W_L &= P~t \\
+    &=\left( \frac{2VI}{\pi} \right) \times \left( \frac{T_2}{2} \right) \\
+        &= \boxed{\frac{V I T_2}{\pi}} \quad \text{(J)} \\
+\end{aligned}
+$$
+
+
+Now, since
+
+* $T_2 = \dfrac{1}{f_2}$, where $f_2$ is the frequency of the $p$ curve,
+* and $f_2 = 2f_1$,
+
+we get:
+
+$$
+W_L = \frac{VI}{\pi (2f_1)} = \frac{VI}{\omega_1} \quad \text{(since } \omega_1 = 2\pi f_1 \text{)}
+$$
+
+</details>
+
+## Elements
+
+### Resistors
+
+From:
+
+$$W = P~t$$
+
+We get:
+
+$$W = VIT = \frac{VI}{f}$$
+
+> **&#9432; Note** <br>
+> These are scalar values.
+
+This is the energy dissipated over one cycle of AC.
+
+Since $\theta=0^\circ$,
+
+$P = VI = I^2R = \dfrac{V^2}{R}$
+
+### Inductor
+
+![](images/inductor-power-curve.png)
+
+Since the $\theta=90^\circ$,
+$$Q_L = VI = I^2X_L = \dfrac{V^2}{X_L}$$
+
+Energy stored in a inductor over one positive half-cycle:
+$$
+W_L = \frac{VI}{\omega} = L I^2
+$$
+
+> **&#9432; Note** <br>
+> These are scalar values.
+
+### Capacitor
+
+![](images/capacitor-power-curve.png)
+
+Since the $\theta=90^\circ$,
+$$Q_C = VI = I^2X_C = \dfrac{V^2}{X_C}$$
+
+Energy stored in a capacitor over one positive half-cycle:
+$$
+W_C = \frac{VI}{\omega} = CV^2
+$$
+
+> **&#9432; Note** <br>
+> These are scalar values.
 
 ## The Power Triangle
 
@@ -105,6 +202,7 @@ $\implies Q_T = Q_L - Q_C$
 
 Problem:
 
+# incomplete begin
 Given:
 $$
 \begin{align*}
@@ -118,13 +216,14 @@ $$
 
 \end{align*}
 $$
+# incomplete end
 
-Much easier way to find $Q_C$
+Much easier way to find $Q_C$:
 $$
 \begin{align*}
-    Q_C = P \cdot \tan (\theta_1 -\theta_2) \\
-    \theta_1 \iff F_p \\
-    \theta_2 \iff F'_p
+    Q_C &= P \cdot \tan (\theta_1 -\theta_2) \\
+    \theta_1 &\to \text{Derived from } F_p \\
+    \theta_2 &\to \text{Derived from } F'_p \\
 \end{align*}
 $$
 
