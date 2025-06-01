@@ -27,6 +27,19 @@
 | Lecture - Class 2227 -Section 32 | Tuesday 4:00PM to 5:00PM<br><hr>Thursday 2:00PM to 4:00PM | 12.1.13<br><hr>12.1.03 | Irum Naz<br><hr>Irum Naz | open (30-30)<br>open (30-30) | |
 | Lecture - Class 2228 -Section 33 | Tuesday 4:00PM to 5:00PM<br><hr>Wednesday 4:00PM to 6:00PM | 12.1.13<br><hr>05.2.25 | Irum Naz<br><hr>Irum Naz | open (30-30)<br>open (30-30) | |
 
+## PHYS1020 General Physics 
+
+| Class ID                          | Days and Times                 | Room    | Instructor         | Status           |
+|----------------------------------|--------------------------------|---------|--------------------|------------------|
+| Laboratory - Class 1873 -Section 1 | Wednesday 10:00AM to 1:00PM    | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
+| Laboratory - Class 1874 -Section 2 | Tuesday 2:00PM to 5:00PM       | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
+| Laboratory - Class 1875 -Section 3 | Monday 2:00PM to 5:00PM        | 09.2.07 | Staff              | open (20-20)     |
+| Laboratory - Class 1876 -Section 4 | Tuesday 8:00AM to 11:00AM      | 09.2.07 | Staff              | open (20-20)     |
+| Laboratory - Class 1877 -Section 5 | Monday 10:00AM to 1:00PM       | 09.2.07 | Alaa Elsaqa        | open (20-20)     |
+| Laboratory - Class 1878 -Section 6 | Thursday 2:00PM to 5:00PM      | 09.2.07 | Alaa Elsaqa        | open (20-20)     |
+| Laboratory - Class 1879 -Section 7 | Sunday 8:00AM to 11:00AM       | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
+
+
 ## PHYS1021 General Physics Lab
 
 | Class ID | Days and Times | Room | Instructor | Status |
