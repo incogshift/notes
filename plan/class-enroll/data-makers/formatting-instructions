@@ -1,5 +1,5 @@
 give me available course classes in markdown code block the format:
-| Class ID | Days and Times | Room | Instructor | Status | Rating |
+| Class ID | Days and Times | Room | Instructor | Status |
 
 Here Class ID is something like: Lecture - Class 1295 -Section 1
 
@@ -10,10 +10,6 @@ i dont want this type of info:
   04/05/2025 - 26/06/2025
 
 For the open seats: format -> 'open/closed (?-?)' where ? is some number according to data and open or closed is used depending on the given or data
-
-rating info wont be given in the data as it will be filled in later
-
-leave its cells empty
 
 use the following data
 
