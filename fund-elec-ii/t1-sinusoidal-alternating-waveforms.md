@@ -65,3 +65,75 @@ When $v = V\angle 60^\circ$ and $i = I \angle 30^\circ$:
 From graph:
 
 Area of a cycle (Addition of positive area and negative area) divided by the time period
+
+<details>
+
+<summary>
+Analytical average (General derivation. Alternative to above)
+</summary>
+
+**Answer:**
+The **average value of the positive portion** of a sinusoidal function $f(t) = A \sin(\omega t)$ over one **positive half-cycle** is:
+
+$$
+\boxed{\frac{2A}{\pi}}
+$$
+
+---
+
+### **General Derivation:**
+
+Let’s define:
+
+* $f(t) = A \sin(\omega t)$
+* The **positive portion** of the sinusoid lies over $t \in [0, T/2]$, where $T = \frac{2\pi}{\omega}$
+* So we want the **average value** of $f(t)$ over $[0, T/2]$
+
+#### Step 1: Set up the average value integral
+
+$$
+\text{Average} = \frac{1}{T/2} \int_0^{T/2} A \sin(\omega t)\, dt
+$$
+
+#### Step 2: Simplify constants
+
+$$
+= \frac{2}{T} \cdot A \int_0^{T/2} \sin(\omega t)\, dt
+$$
+
+Change variable: $\theta = \omega t \Rightarrow d\theta = \omega dt \Rightarrow dt = \frac{d\theta}{\omega}$
+
+* When $t = 0 \Rightarrow \theta = 0$
+* When $t = T/2 \Rightarrow \theta = \omega \cdot \frac{T}{2} = \omega \cdot \frac{\pi}{\omega} = \pi$
+
+So the integral becomes:
+
+$$
+= \frac{2A}{T} \int_0^{T/2} \sin(\omega t)\, dt
+= \frac{2A}{T} \cdot \int_0^\pi \sin(\theta) \cdot \frac{d\theta}{\omega}
+= \frac{2A}{T \omega} \int_0^\pi \sin(\theta) \, d\theta
+$$
+
+$$
+= \frac{2A}{T \omega} \cdot [-\cos(\theta)]_0^\pi
+= \frac{2A}{T \omega} \cdot [ -\cos(\pi) + \cos(0) ]
+= \frac{2A}{T \omega} \cdot [1 + 1] = \frac{4A}{T \omega}
+$$
+
+Now recall $T = \frac{2\pi}{\omega} \Rightarrow T \omega = 2\pi$, so:
+
+$$
+\frac{4A}{T \omega} = \frac{4A}{2\pi} = \boxed{\frac{2A}{\pi}}
+$$
+
+---
+
+### ✅ Final Result:
+
+For any sinusoidal signal $A \sin(\omega t)$, the **average value over the positive half-cycle** is:
+
+$$
+\boxed{\frac{2A}{\pi}}
+$$
+
+</details>
