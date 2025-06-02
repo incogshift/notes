@@ -29,6 +29,11 @@
 
 ## PHYS1020 General Physics 
 
+Recommendations:
+- Feras Alzubi
+- AETN 1102
+
+
 | Class ID                          | Days and Times                 | Room    | Instructor         | Status           |
 |----------------------------------|--------------------------------|---------|--------------------|------------------|
 | Laboratory - Class 1873 -Section 1 | Wednesday 10:00AM to 1:00PM    | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
@@ -82,6 +87,21 @@
 | Lecture - Class 1870 -Section 4  | Tuesday 12:00PM to 1:00PM<br><hr>Thursday 12:00PM to 1:00PM<br><hr>Sunday 12:00PM to 1:00PM | 05.2.25      | Ghufran Khalaf Ja'afreh | open (30-30)     |
 | Lecture - Class 1871 -Section 5  | Tuesday 12:00PM to 1:00PM<br><hr>Thursday 12:00PM to 1:00PM<br><hr>Sunday 12:00PM to 1:00PM | 05.1.66      | Staff                   | open (30-30)     |
 | Lecture - Class 1872 -Section 6  | Tuesday 9:00AM to 10:00AM<br><hr>Thursday 9:00AM to 10:00AM<br><hr>Sunday 9:00AM to 10:00AM | 05.1.56      | Staff                   | open (30-30)     |
+
+## AETN1212 Digital Electronics Lab:
+| Class ID                         | Days and Times                                            | Room     | Instructor             | Status         | Rating |
+|----------------------------------|------------------------------------------------------------|----------|------------------------|----------------|--------|
+| Laboratory - Class 1880 -Section 1 | Wednesday<br>4:00PM to 6:00PM <hr>                        | 09.2.79  | Mariam Al-Ghanma       | open (15-15)   |        |
+| Laboratory - Class 1881 -Section 2 | Wednesday<br>2:00PM to 4:00PM <hr>                        | 09.2.79  | Eithar Mustafa         | open (15-15)   |        |
+| Laboratory - Class 1882 -Section 3 | Tuesday<br>2:00PM to 4:00PM <hr>                          | 09.2.79  | Eithar Mustafa         | open (15-15)   |        |
+| Laboratory - Class 1883 -Section 4 | Monday<br>10:00AM to 12:00PM <hr>                         | 09.2.79  | Mariam Al-Ghanma       | open (15-15)   |        |
+| Laboratory - Class 1884 -Section 5 | Thursday<br>6:00PM to 8:00PM <hr>                         | 08.1.03  | Alaa Elsaqa            | open (15-15)   |        |
+| Laboratory - Class 1885 -Section 6 | Wednesday<br>11:00AM to 1:00PM <hr>                       | 09.2.79  | Alaa Elsaqa            | open (15-15)   |        |
+| Laboratory - Class 1886 -Section 7 | Sunday<br>10:00AM to 12:00PM <hr>                         | 09.2.79  | Amira Mustapha         | open (15-15)   |        |
+| Laboratory - Class 1887 -Section 8 | Tuesday<br>8:00AM to 10:00AM <hr>                         | 09.2.79  | Amira Mustapha         | open (15-15)   |        |
+| Laboratory - Class 1888 -Section 9 | Thursday<br>12:00PM to 2:00PM <hr>                        | 09.2.79  | Mariam Al-Ghanma       | open (15-15)   |        |
+| Laboratory - Class 1889 -Section 10| Sunday<br>12:00PM to 2:00PM <hr>                          | 09.1.41  | Alaa Elsaqa            | open (15-15)   |        |
+| Laboratory - Class 1890 -Section 11| Wednesday<br>8:00AM to 10:00AM <hr>                       | 09.2.69  | Ghufran Khalaf Ja'afreh| open (15-15)   |        |
 
 ## Network Fundamentals
 
