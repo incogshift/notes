@@ -35,3 +35,59 @@ $$
     y' &= \frac{d}{dx}(f(x))~\cdot e^{f(x)} \\ \\
 \end{align*}
 $$
+
+## Derivative of General Exponential and Logarithmic Functions
+
+Find the derivative of
+$
+y = a^{f(x)}, \text{ given }
+    \begin{array}
+        f(x) &= g(x)\\ 
+        \ln(f(x) &= \ln(g(x))
+    \end{array}$
+
+Take $\ln$ on both sides
+
+$$
+\begin{align*}
+    \ln y &= \ln a^{f(x)} \\
+    \frac{y'}{y} &= f'(x) \cdot a^{f(x)} \\
+    y' = y \cdot f'(x) \cdot a^{f(x)} \\
+    y' = a^{f(x)} \cdot f'(x) \cdot a^{f(x)} \\
+\end{align*}
+$$
+
+$\boxed{y' = a^{f(x)} \cdot f'(x) \cdot a^{f(x)}}$
+
+$$
+\begin{align*}
+    \log_n m &= \frac{\log m}{\log n} \\
+    \therefore y &= \frac{\ln [f(x)}{\ln b} \\
+    y' &= \frac{f'(x)}{f(x)} \cdot \frac{1}{\ln b}
+    y' &= \frac{f'(x)}{f(x) \cdot \ln b}
+\end{align*}
+$$
+
+## Logarithmic Differentiation
+
+Find derivative of $ y = x^x$
+
+Taking $\ln$ on both side:
+
+
+$$
+\begin{align*}
+    \ln y &= \ln x^x \\
+    \ln y &= x \ln x \\
+\end{align*}
+$$
+
+Find the derivative on both sides:
+
+$$
+\begin{align*}
+    \frac{y'}{y} = 1+\ln x \\
+    y' = y( 1+\ln x ) \\
+    y' = x^x( 1+\ln x )
+\end{align*}
+$$
