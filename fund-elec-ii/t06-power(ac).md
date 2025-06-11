@@ -96,12 +96,11 @@ Unit: $\text{VAR}$, Volt Ampere Reactive
 <details>
 <summary>
 Average Value of Energy stored in a Reactive Element over a Positive Sinusoidal Half-Cycle
+</summary>
 
 |||
 |-|-|
 |![](images/inductor-power-curve.png)|![](images/capacitor-power-curve.png)|
-
-</summary>
 
 Recall that the **average value of the positive portion of a sinusoid** is:
 
@@ -213,7 +212,6 @@ $$
     \text{Find S'} \\
     S' &= \frac{P}{p.f.} \\
     \text{}
-
 \end{align*}
 $$
 # incomplete end

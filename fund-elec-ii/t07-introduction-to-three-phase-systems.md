@@ -1,3 +1,5 @@
+## Some General Knowledge
+
 | | | | 
 |-|-|-|
 | Generation | 11-15  kV | 3 phase |
@@ -75,4 +77,4 @@ $$
 
 ## Three-Wattmeter Method
 
-$P_{T_Y} = P_1 + P_2 + P_3$
+$P_{T_Y} = P_1 + P_2 + P_3$<>

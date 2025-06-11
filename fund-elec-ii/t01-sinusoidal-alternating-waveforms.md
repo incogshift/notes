@@ -128,7 +128,7 @@ $$
 
 ---
 
-### ✅ Final Result:
+### Final Result:
 
 For any sinusoidal signal $A \sin(\omega t)$, the **average value over the positive half-cycle** is:
 
