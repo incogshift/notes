@@ -1,4 +1,5 @@
 *.pdf
+*.html
 
 # quarto build outputs
 *_files
