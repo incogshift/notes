@@ -1,0 +1,104 @@
+---
+header-includes:
+    - \usepackage{amssymb}
+
+format:
+  html:
+    math:
+      method: mathjax
+      extensions: [mhchem]
+---
+
+## Some General Knowledge
+
+| Process | Voltage | Phase |
+|---|---|---|
+| Generation | 11-15  kV | 3 phase |
+| Transmission | 100-400 kV | 3 phase |
+| Distribution | 11 kV | 3 phase |
+| Consumption | 415 V or 240 V | 3 phase or single phase |
+
+Cycle of electricity transfer from power plan to a house:
+
+- Power Plant
+- Step-up transformer
+- High-voltage Transmission line
+- Step-down transformer (substation)
+
+| Wire Colour | Notation |
+|---|---|
+| R red | L1 |
+| Y yellow | L2 |
+| B blue | L3 |
+| N | |
+
+## Three-Phase Generator:
+- Has 3 coils each seperated by an angle of $120^\circ $
+- Hence has 3 sine waves
+- Made of magnet (mobile) and conductor (stationary)
+- The 3 line wires are of colors: Red, Yellow, Blue
+
+Voltage differences between wires:
+- $415~V$ between line and line
+- $240~V$ between line and neutral
+
+\begin{align*}
+    e_{AN} &= E_{m(AN)} \sin \omega t \\
+    e_{BN} &= E_{m(VN)} \sin (\omega t - 120^\circ) \\
+    e_{CN} &= E_{m(CN)} \sin (\omega t + 120^\circ) \\
+\end{align*}
+
+- $AN$ stands for: from A (line) to the neutral
+- Line voltage $(V_{ph} \text{ or } V_\phi)$: $\Delta V$ b/w line-line
+- Phase voltage $(V_L)$: $\Delta V$ b/w line-neutral
+
+Phase sequence change can change the direction of turns of a motor
+
+Motor:
+
+| Delta connection | Y (Wye) connection |
+|---|---|
+| No common point | Has common point |
+
+## Y-Connected Generator
+
+$E_L = V_\phi \sqrt{3}$
+
+$I_L = I_\phi$
+
+- Sum of line voltages is $0~\text{V}$.
+- Phase rotation, or phase sequence, is the order in which the voltage waveforms of a polyphase AC source reach their respective peaks.
+- The phase sequence can be determined by the order in which the phasors pass through a fixed point on the phasor diagram if the phasors are rotated in a counterclockwise direction.
+- The phase sequence for the line voltages is the same as for phase voltages.
+- The phase sequence is quite important in the three-phase distribution of power.
+- In a three-phase motor, for example, if two phase voltages are interchanged, the sequence will change, and the direction of rotation of the motor will be reversed.
+- If the load is balanced, the neutral connection can be removed without affecting the circuit in any manner; that is, if  $Z_1 = Z_2 = Z_3$    then $I_N$ will be zero.
+
+<p align="center">
+  <img src="t07-introduction-to-three-phase-systems-img/voltage-phase-sequence.png" width="300" alt="voltage-phase-sequence.png">
+</p>
+
+## Y-Connected Generator with a Y-Connected Load
+
+$E_L = V_\phi \sqrt{3}$
+
+$I_L = I_\phi$
+
+## Y-$\Delta$ System
+
+$V_L = V_\phi$
+
+$I_L = I_\phi \cdot \sqrt{3}$
+
+- Here the magnitudes of the line and phase currents will be equal
+
+\begin{align*}
+    P_\phi &= V_\phi I_\phi \cos \theta \\
+    P_T &= 3 P_\phi \\
+    P_T &= \sqrt 3 V_\phi I_\phi \cos \theta \\
+    Q_\phi &= V_\phi I_\phi \sin \theta \\
+\end{align*}
+
+## Three-Wattmeter Method
+
+$P_{T_Y} = P_1 + P_2 + P_3$
