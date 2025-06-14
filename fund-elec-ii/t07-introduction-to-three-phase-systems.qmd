@@ -1,12 +1,14 @@
 ---
-header-includes:
-    - \usepackage{amssymb}
-
 format:
   html:
     math:
       method: mathjax
-      extensions: [mhchem]
+      extensions: [mhchem, amssymb]
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
 ---
 
 ## Some General Knowledge
