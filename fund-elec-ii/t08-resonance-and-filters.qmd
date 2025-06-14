@@ -1,0 +1,170 @@
+---
+title: 'Resonance and Filters'
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+---
+
+## Introduction to Resonance Circuit
+
+- Resonance in a circuit is a combination of RLC components
+- Occurs when $X_L = X_C$
+- The frequency at which resonance occurs is called **resonance frequency**
+- $I = \dfrac{E\angle\theta}{R}$
+- $Z_T = R$
+- Response is max at $f_r$
+
+<img src="t8-resonance-and-filters-img/power-frequency-curve.png" width=300 alt="power-frequency-curve.png">
+
+- The tuning process (setting the dial to $f_s$) is the reason for the terminology tuned circuit.
+- When resonance occurs at the frequency $( f_s )$, the energy absorbed by one reactive element is the same as that released by another reactive element within the system. In other words, energy pulsates from one reactive element to the other.
+
+## Series Resonant Circuit 
+
+Resonace frequency,
+
+$$
+f_s = \dfrac{1}{2 \pi \sqrt{LC}} \iff \omega_s = \dfrac{1}{\sqrt{LC}}
+$$
+
+In a resonance circuit:
+
+- The magnitudes of the voltage drops across the inductor and capacitor are equal and have $180^\circ$ $\Delta \phi$
+$$
+| V_{L_s} | = | V_{C_s} |
+$$
+
+- $Q_T = 0 \implies P_T = S_T$
+
+$$
+\therefore F_{P_s} = 1~\&~\theta_s = 0^\circ
+$$
+
+## Quality Factor $(Q_s)$
+
+Definition:
+
+- The quality factor $Q_s$ of a series resonant circuit is the ratio of the reactive power of **either** the **inductor** or the **capacitor** to the average power of the resistor at resonance.
+- The quality factor is also an indication of **how much energy** is placed in **storage** (continual transfer from one reactive element to the other) **compared** to that **dissipated**.
+
+$$
+Q_s = \mathrm{ \dfrac{reactive~power}{average~power} }
+$$
+
+Formulas:
+
+- $Q_s = \dfrac{Q_{L \text{ or } C}}{P} = \dfrac{X_L}{R}$
+- $Q_s=\dfrac{1}{R} \sqrt{\dfrac{L}{C}}$
+
+<details><summary>Derivation</summary>
+$$
+Q_s=\dfrac{\omega_sL}{R}=\dfrac{2\pi f_sL}{R}=\dfrac{2\pi}{R}\left(\dfrac{1}{2\pi\sqrt{LC}}\right)L=\dfrac{L}{R}\left(\dfrac{1}{\sqrt{LC}}\right)=\left(\dfrac{\sqrt{L}}{\sqrt{L}}\right)\dfrac{L}{R\sqrt{LC}}\quad\boxed{Q_s=\dfrac{1}{R}\sqrt{\dfrac{L}{C}}}
+$$
+</details>
+
+In a series RLC circuit:
+
+$$
+V_L=V_C = Q_s E
+$$
+
+<details><summary>Derivation</summary>
+
+By applying the voltage divider rule, we obtain
+
+$$V_{L}=\dfrac{X_{L} E}{Z_{T_s}}=\dfrac{X_{L} E}{R} $$
+
+$$V_{C}=\dfrac{X_{C} E}{Z_{T_s}}=\dfrac{X_{C} E}{R}$$
+
+$$V_{L_{s}}=Q_{s} E$$
+
+$$V_{C_{s}}=Q_{s} E$$
+
+</details>
+
+## Z_T vs Frequency
+
+| Condition | Nature | Phase Relation | Remember |
+|---|---|---|---|
+| $f < f_s$ | Capacitive | $I$ leads $E$ | $f \propto \dfrac{1}{C}$ |
+| $f > f_s$ | Inductive | $E$ leads $I$ | $f \propto L$ |
+| $f = f_s$ | Resistive | $E$ and $I$ in phase | $X_L = X_C$ |
+
+## Selectivity
+
+Bandwidth: distance b/w 2 the cut off frequencies of a given circuit
+
+Cut off frequency: RMS current frequency (2 frequencies for each circuit)
+
+Selectivity:
+
+The quality factor is the measure of "selectivity" of an AC resonant circuit.
+
+Resonant circuits are used to respond selectively to signals of a given frequency while discriminating against signals of different frequencies. If the response of the circuit is more narrowly peaked around the chosen frequency, we say that the circuit has higher "selectivity". A "quality factor" Q, is a measure of that selectivity, and we speak of a circuit having a "high Q" if it is more narrowly selective and "low Q" if it is less narrowly selective.
+[refer:](https://qr.ae/pAVmc1)
+
+- $\mathrm{Selectivity \propto \dfrac{1}{Bandwidth}}$
+
+$$P_{HPF} = I^2R = \dfrac{1}{2}P_{max} = \dfrac{1}{2} I_m^2R$$
+
+Bandwidth definition:
+
+$$BW = f_2 - f_1$$
+
+Derivations:
+
+$$
+\begin{align*}
+    BW &= \dfrac{f_S}{Q_S} = \dfrac{R}{2 \pi L}\\
+    f_s &= \sqrt{f_1 f_2} \\
+    f_1 &= f_S - \dfrac{BW}{2} \\
+    f_2 &= f_S + \dfrac{BW}{2} \\
+\end{align*}
+$$
+
+## Introduction to Filters
+
+- Filter Definition: Any combination of passive (R, L, and C) and/or active (transistors or operational amplifiers) elements that are designed to select or reject a band of frequencies.
+- Filter applications: communication systems, stereo systems, noise filtering.
+- Passive Filters are analyzed in this module.
+- Filter categories: low-pass, high-pass, pass-band, and stop-band.
+- For type of filter, there are critical frequencies that define the regions of pass-bands and stop-bands (often called reject bands), as depicted in the next slide.
+
+## Filter Categories
+
+<p align="center">
+	<img alt="lowPassFilterVfGraph.png" width="300" src="t08-resonance-and-filters-img/lowPassFilterVfGraph.png">
+</p>
+
+<p align="center">
+	<img alt="highPassFilterVfGraph.png" width="300" src="t08-resonance-and-filters-img/highPassFilterVfGraph.png">
+</p>
+
+<p align="center">
+	<img alt="passBandFilterVfGraph.png" width="300" src="t08-resonance-and-filters-img/passBandFilterVfGraph.png">
+</p>
+
+<p align="center">
+	<img alt="stropBandFilterVfGraph.png" width="300" src="t08-resonance-and-filters-img/stropBandFilterVfGraph.png">
+</p>
+
+## RC Low-Pass filter
+
+- RC circuit
+- Output at low frequencies only
+- No output at high frequencies
+- To a resistor circuit, a capacitor is connected in parallel
+- We are taking output from the capacitor
+- Cut off frequency, $f_c = \dfrac{1}{2\pi RC}$
+
+## RC High-Pass filter
+
+- RC circuit
+- Output at high frequencies only
+- No output at low frequencies
+- To a capacitor circuit, a resistor is connected in parallel
+- Cut off frequency, $f_c = \dfrac{1}{2\pi RC}$
