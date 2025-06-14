@@ -152,19 +152,19 @@ $$
 	<img alt="stropBandFilterVfGraph.png" width="300" src="t08-resonance-and-filters-img/stropBandFilterVfGraph.png">
 </p>
 
-## RC Low-Pass filter
-
-- RC circuit
-- Output at low frequencies only
-- No output at high frequencies
-- To a resistor circuit, a capacitor is connected in parallel
-- We are taking output from the capacitor
-- Cut off frequency, $f_c = \dfrac{1}{2\pi RC}$
-
-## RC High-Pass filter
-
-- RC circuit
-- Output at high frequencies only
-- No output at low frequencies
-- To a capacitor circuit, a resistor is connected in parallel
-- Cut off frequency, $f_c = \dfrac{1}{2\pi RC}$
+| **RC Low-Pass Filter** | **RC High-Pass Filter** |
+|------------------------|-------------------------|
+| RC circuit | RC circuit |
+| ![low-pass-filter-circuit.png](t08-resonance-and-filters-img/low-pass-filter-circuit.png){#low-pass-filter-circuit.png width=300} | ![high-pass-filter-circuit.png](t08-resonance-and-filters-img/high-pass-filter-circuit.png){#high-pass-filter-circuit.png width=300} |
+| If the **positions** of the **resistor and capacitor** are **interchanged** and the output is taken off the resistor, the response is that of a high-pass filter. | If the **positions** of the **resistor and capacitor** are **interchanged** and the output is taken off the capacitor, the response is that of a low-pass filter. |
+| Output at low frequencies only | Output at high frequencies only |
+| ![low-pass-filter-circuit-low-frequency.png](t08-resonance-and-filters-img/low-pass-filter-circuit-low-frequency.png){#low-pass-filter-circuit-low-frequency.png width=300} | ![high-pass-filter-circuit-high-frequency.png](t08-resonance-and-filters-img/high-pass-filter-circuit-high-frequency.png){#high-pass-filter-circuit-high-frequency.png width=300} |
+| No output at high frequencies | No output at low frequencies |
+| ![low-pass-filter-circuit-high-frequency.png](t08-resonance-and-filters-img/low-pass-filter-circuit-high-frequency.png){#low-pass-filter-circuit-high-frequency.png width=300} | ![high-pass-filter-circuit-low-frequency.png](t08-resonance-and-filters-img/high-pass-filter-circuit-low-frequency.png){#high-pass-filter-circuit-low-frequency.png width=300} |
+| A resistive live wire and a neutral wire are connected by a capacitor | A resistive live wire and a neutral wire are connected by a resistor |
+| We are taking output from the capacitor | We are taking output from the resistor |
+| By VDR (parallel circuit),<br>$$V_o =\frac{V_i}{R-jX_C}X_C$$ | By VDR (parallel circuit),<br>$$V_o =\frac{V_i}{R-jX_C}R$$ |
+| $$A_v=\frac{V_o}{V_i}=\frac{X_C}{\sqrt{R^2+X_C^2}}=\frac{1}{\sqrt{\left(\frac{R}{X_C}\right)^2+1}}$$   <br>   At $X_C=R$, $A_v \approx 0.707$   |   $$A_{v}=\frac{V_{o}}{V_{i}}=\frac{R}{\sqrt{R^{2}+X_{C}^{2}}}=\frac{1}{\sqrt{1+\left(\frac{X_{C}}{R}\right)^{2}}}$$    <br>    At $X_C=R$, $A_v \approx 0.707$ |
+| Cut off frequency, $f_c = \dfrac{1}{2\pi RC}$ | Cut off frequency, $f_c = \dfrac{1}{2\pi RC}$ |
+| **Significance of $f_c$**: The application of any frequency less than $f_c$ results in an output voltage Vo that is at least $70.7~\%$ of the magnitude of the input signal. For any frequency above $f_c$ , the output is less than $70.7~\%$ of the input signal. | **Significance of $f_c$**: The application of any frequency greater than $f_c$ results in an output voltage $V_o$ that is at least $70.7~\%$ of the magnitude of the input signal. For any frequency below $f_c$ , the output is less than $70.7~\%$ of the input signal. |
+| ![low-pass-filter-v-vs-f.png](t08-resonance-and-filters-img/low-pass-filter-v-vs-f.png){#low-pass-filter-v-vs-f.png width=300} |![high-pass-filter-v-vs-f.png](t08-resonance-and-filters-img/high-pass-filter-v-vs-f.png){#high-pass-filter-v-vs-f.png width=300} |
