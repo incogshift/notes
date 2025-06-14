@@ -1,4 +1,7 @@
 *.pdf
 
+# quarto build outputs
+*_files
+
 # MyST build outputs
 _build
