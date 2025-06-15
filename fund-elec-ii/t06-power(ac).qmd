@@ -1,3 +1,14 @@
+---
+title: 'Power (AC)'
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+---
 
 All circuits have an inductance. Why?
 
@@ -12,7 +23,6 @@ $p=VI \cos\theta (1-\cos 2\omega t) + VI \sin\theta (\sin 2\omega t)$
 <details>
 <summary>Derivation</summary>
 
-$$
 \begin{align}
     \text{From:} \notag \\
     p(t) &= V_mI_m\sin\omega t \sin (\omega t +\theta) \\
@@ -29,7 +39,6 @@ $$
     V_m &= \sqrt{2}V, I_m = \sqrt{2}I \notag \\
     \implies p(t) &= VI [\cos(\theta) - \cos(2\omega t + \theta)] \\
 \end{align}
-$$
 
 ---
 
@@ -42,7 +51,6 @@ $$
 
 ---
 
-$$
 \begin{align*}
     \text{From:} \qquad p(t) &= VI [\cos(\theta) - \cos(2\omega t + \theta)] \\
     \cos(a+b) &= \cos a \cos b - \sin a \sin b \\
@@ -50,7 +58,7 @@ $$
     p(t) &= VI \left[ \cos\theta - \cos 2\omega t \cos\theta + \sin 2\omega t \sin\theta \right] \\
     p(t) &= VI \left[ \cos\theta (1 - \cos 2\omega t) + \sin\theta \sin 2\omega t \right] \\
 \end{align*}
-$$
+
 ---
 
 $$
@@ -116,14 +124,11 @@ $$
 
  Energy stored in an inductor or capacitor:
 
-$$
 \begin{aligned}
     W_L &= P~t \\
     &=\left( \frac{2VI}{\pi} \right) \times \left( \frac{T_2}{2} \right) \\
         &= \boxed{\frac{V I T_2}{\pi}} \quad \text{(J)} \\
 \end{aligned}
-$$
-
 
 Now, since
 
@@ -167,6 +172,7 @@ Since the $\theta=90^\circ$,
 $$Q_L = VI = I^2X_L = \dfrac{V^2}{X_L}$$
 
 Energy stored in a inductor over one positive half-cycle:
+
 $$
 W_L = \frac{VI}{\omega} = L I^2
 $$
@@ -203,7 +209,7 @@ Problem:
 
 # incomplete begin
 Given:
-$$
+
 \begin{align*}
     &V_T,~f,~P_T,~F_p~\text{lagging or leading},~F'_p~\text{(new power factor, lagging or leading)} \\
     \text{Find S and Q T,} \\
@@ -213,21 +219,19 @@ $$
     S' &= \frac{P}{p.f.} \\
     \text{}
 \end{align*}
-$$
+
 # incomplete end
 
 Much easier way to find $Q_C$:
-$$
+
 \begin{align*}
     Q_C &= P \cdot \tan (\theta_1 -\theta_2) \\
     \theta_1 &\to \text{Derived from } F_p \\
     \theta_2 &\to \text{Derived from } F'_p \\
 \end{align*}
-$$
 
 ## Collection of formulas
 
-$$
 \begin{align*}
     S&=\sqrt{P^2+Q^2_L}\\
     S &= \frac{P}{p.f.} \\
@@ -237,4 +241,3 @@ $$
     X_C&=\dfrac{E^2_{rms}}{Q_C} \\
     C &= \dfrac{1}{2\pi f X_C} \\
 \end{align*}
-$$

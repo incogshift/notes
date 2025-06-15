@@ -1,0 +1,14 @@
+---
+title: 'Series Parallel AC Circuits'
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+---
+
+## Ground
+

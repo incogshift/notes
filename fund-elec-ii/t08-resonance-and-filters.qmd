@@ -2,6 +2,7 @@
 title: 'Resonance and Filters'
 format:
   html:
+    respect-user-color-scheme: true
     theme:
       light: flatly
       dark: darkly

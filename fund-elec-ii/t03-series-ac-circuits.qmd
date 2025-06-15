@@ -1,4 +1,16 @@
-# Circuits
+---
+title: 'Series AC Circuits'
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+---
+
+## Circuits
 In a series circuit, in place of $R$, we use $Z$:
  -  $Z_T = Z_1 + Z_2 + Z_3 \dots$
 

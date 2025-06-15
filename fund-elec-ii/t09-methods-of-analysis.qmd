@@ -1,6 +1,7 @@
 ---
 format:
   html:
+    respect-user-color-scheme: true
     math:
       method: mathjax
       extensions: [mhchem, amssymb]
