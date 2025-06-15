@@ -1,3 +1,15 @@
+---
+title: 't02'
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+---
+
 ## Capacitive Circuits
 
 Capacitors are added to decrease the current
@@ -67,9 +79,11 @@ $\cos 90^\circ = 0 \implies P = 0~\mathrm{W}$
 - $\vec{C}$ is a vector. $Z \angle \theta$ and $R+jX$ are its expansions. For now, we shall ignore $\vec{C}$.
 
 ---
+
 > Math
 
 For $x \angle \theta_1$ and $y \angle \theta_2$:
 - For calculation by hand, we convert them to rectangular form
 - For calculation by calculator, we directly do calculations in complex mode
+
 ---
