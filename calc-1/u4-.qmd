@@ -1,0 +1,19 @@
+## Optimasation Problem Steps
+
+Draw your sketch
+
+Which formulas do we use to construct the shape
+
+
+2D: Area and Perimeter
+3D: Volume and Surface area
+
+## Related Rates
+
+This is always differentiation wrt time
+
+for $f(x)$
+
+$\frac{d~[f(x)]}{dt} = \frac{df(x)}{dx} \cdot \frac{dx}{dt}$, (Chain Rule)
+
+$\frac{dx}{dt} = \frac{1}{d~[f(x)]} \cdot \frac{d~[f(x)]}{dt}$
