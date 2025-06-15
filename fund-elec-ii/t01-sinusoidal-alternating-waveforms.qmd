@@ -1,3 +1,15 @@
+---
+title: 'Sinusoidal Alternating Waveforms'
+format:
+  html:
+    theme:
+    respect-user-color-scheme: true
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+---
+
 # Waveform
 
 - The **waveform** of a signal is the shape of its graph as a function of time
